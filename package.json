@@ -1,5 +1,5 @@
 {
-  "name": "electron-react-nfc-reader",
+  "name": "velesto-tv-app",
   "version": "0.1.0",
   "private": true,
   "main": "public/electron.js",
@@ -7,7 +7,7 @@
     "name": "Pang Shi Hao",
     "email": "shihao@proof-point.com"
   },
-  "description": "Proofpoint app for gym center to scan NFC cards.",
+  "description": "Velesto app to showcase NAGA 5.",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.3",
@@ -72,7 +72,7 @@
   "config": {
     "forge": {
       "packagerConfig": {
-        "name": "ProofPoint NFC Reader"
+        "name": "Velesto App"
       },
       "makers": [
         {
