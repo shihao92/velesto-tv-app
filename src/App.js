@@ -1,45 +1,37 @@
 import {
-  Button,
-  Modal, ModalHeader, ModalBody
+  Button
 } from 'reactstrap'
-import { useState } from 'react'
-import ReactLottie from 'react-lottie'
+import { useState, useEffect } from 'react'
 
-import RippleIcon from './assets/ripple-effects.json'
+import ModalOffshoreDrillingRigs from './components/Modal/OffshoreDrillingRigs'
 
+import 'animate.css';
 import './App.css';
 
-const RippleOptions = {
-  loop: true,
-  autoplay: true,
-  animationData: RippleIcon
-}
-
 function App() {
-  const [ selectedPoint, updateSelectedPoint ] = useState( '' )
-  const [ showDetailsModal, updateShowDetailsModal ] = useState( false )  
+  const [ audio ] = useState( new Audio("assets/mixkit-tech-house-vibes-130.mp3") )
+  const [ showOffshoreDrillingRigs, updateShowOffshoreDrillingRigs ] = useState( false )
+  useEffect(() => {
+    document.querySelector("#audio-play-btn").click()
+    audio.addEventListener( "ended", () => document.querySelector("#audio-play-btn").click() )
+  }, [])
   return (
-    <div className="app-container">
-      <img src={ "/assets/brand.png" } className="brand-img" />
-      <Button 
-        className="btn-click offline-capability-upgrade"
-        onClick={() => {
-          updateSelectedPoint( 'offline-capability-upgrade' )
-          updateShowDetailsModal( true )
-        }}>
-        <ReactLottie
-          width={ 200 }
-          height={ 200 }
-          style={{ overflow: 'visible' }}
-          options={ RippleOptions }
-          isPaused={ false } />
-      </Button>
-      <Modal 
-        isOpen={ showDetailsModal }
-        size={ 'md' }
-        toggle={() => updateShowDetailsModal( false )}>
-        <ModalHeader>{ 'Offline Capabilities Upgrade' }</ModalHeader>
-      </Modal>
+    <div className="app-container" style={{ backgroundImage: `url(assets/home-bg.jpg)`, backgroundColor: '#071c2b' }}>
+      <div className="main-menu-panel animate__animated animate__fadeIn">
+        <img src={ "assets/brand.png" } className="brand-img" />
+        <Button 
+          className="btn-offshore-drilling-rigs mb-3 mt-3"
+          onClick={() => updateShowOffshoreDrillingRigs( true )}>
+          Offshore Drilling Rigs
+        </Button>
+        <Button className="btn-hydraulic-workover-units">
+          Hydraulic Workover Units
+        </Button>
+        <Button id="audio-play-btn" style={{ visibility: 'hidden' }} onClick={() => audio.play()}>Play</Button>
+      </div>
+      <ModalOffshoreDrillingRigs 
+        showOffshoreDrillingRigs={ showOffshoreDrillingRigs }
+        updateShowOffshoreDrillingRigs={ updateShowOffshoreDrillingRigs } />
     </div>
   );
 }
