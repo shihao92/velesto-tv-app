@@ -4,6 +4,7 @@ import {
 } from 'reactstrap'
 import { useState } from 'react'
 import ReactLottie from 'react-lottie'
+import _ from 'lodash'
 
 import ModalOffshoreDrillingRigDetails from './OffshoreDrillingRigDetails'
 
@@ -64,10 +65,14 @@ const OffshoreDrillingRigsModal = props => {
 						}
 					</div>
 				</div>
-				<ModalOffshoreDrillingRigDetails
-					showSelectedRigDetails={ showSelectedRigDetails }
-					updateShowSelectedRigDetails={ updateShowSelectedRigDetails }
-					selectedRig={ selectedRig } />
+				{
+					!_.isEmpty( selectedRig ) && (
+						<ModalOffshoreDrillingRigDetails
+							showSelectedRigDetails={ showSelectedRigDetails }
+							updateShowSelectedRigDetails={ updateShowSelectedRigDetails }
+							selectedRig={ selectedRig } />
+					)
+				}
 			</ModalBody>
 			<ModalFooter>
 				<Button 
