@@ -49,7 +49,7 @@ const HydraulicWorkoverUnitsModal = props => {
 				<Button 
 					color="secondary"
 					onClick={() => {
-						props.updateShowSelectedHWU( false )
+						props.updateShowHydraulicWorkoverUnits( false )
 					}}>Back</Button>
 			</ModalFooter>
     </Modal>

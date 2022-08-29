@@ -80,6 +80,167 @@ const OffshoreDrillingRigDetails = props => {
 									</Table>
 								</CardBody>
 							</Card>
+							{
+								props.selectedRig.drillingEquipment && (
+									<Card className="mb-2">
+										<CardHeader>Drilling Equipment</CardHeader>
+										<CardBody>
+											<Table striped bordered>
+												<tbody>
+													{
+														props.selectedRig.drillingEquipment.map( item => {
+															return (
+																<tr key={ item.key }>
+																	<td>{ item.key }</td>
+																	<td>{ item.val }</td>
+																</tr>
+															)
+														})
+													}
+												</tbody>
+											</Table>
+										</CardBody>
+									</Card>
+								)
+							}
+							{
+								props.selectedRig.tubulars && (
+									<Card className="mb-2">
+										<CardHeader>Tubular</CardHeader>
+										<CardBody>
+											<Table striped bordered>
+												<tbody>
+													{
+														props.selectedRig.tubulars.map( item => {
+															return (
+																<tr key={ item.key }>
+																	<td>{ item.key }</td>
+																	<td>{ item.val }</td>
+																</tr>
+															)
+														})
+													}
+												</tbody>
+											</Table>
+										</CardBody>
+									</Card>
+								)
+							}
+							{
+								props.selectedRig.wellControl && (
+									<Card className="mb-2">
+										<CardHeader>Well Control</CardHeader>
+										<CardBody>
+											<Table striped bordered>
+												<tbody>
+													{
+														props.selectedRig.wellControl.map( item => {
+															return (
+																<tr key={ item.key }>
+																	<td>{ item.key }</td>
+																	<td>{ item.val }</td>
+																</tr>
+															)
+														})
+													}
+												</tbody>
+											</Table>
+										</CardBody>
+									</Card>
+								)
+							}
+							{
+								props.selectedRig.liftingEquipment && (
+									<Card className="mb-2">
+										<CardHeader>Lifting Equipment</CardHeader>
+										<CardBody>
+											<Table striped bordered>
+												<tbody>
+													{
+														props.selectedRig.liftingEquipment.map( item => {
+															return (
+																<tr key={ item.key }>
+																	<td>{ item.key }</td>
+																	<td>{ item.val }</td>
+																</tr>
+															)
+														})
+													}
+												</tbody>
+											</Table>
+										</CardBody>
+									</Card>
+								)
+							}
+							{
+								props.selectedRig.powerPlant && (
+									<Card className="mb-2">
+										<CardHeader>Power Plant</CardHeader>
+										<CardBody>
+											<Table striped bordered>
+												<tbody>
+													{
+														props.selectedRig.powerPlant.map( item => {
+															return (
+																<tr key={ item.key }>
+																	<td>{ item.key }</td>
+																	<td>{ item.val }</td>
+																</tr>
+															)
+														})
+													}
+												</tbody>
+											</Table>
+										</CardBody>
+									</Card>
+								)
+							}
+							{
+								props.selectedRig.mudSystem && (
+									<Card className="mb-2">
+										<CardHeader>Mud System</CardHeader>
+										<CardBody>
+											<Table striped bordered>
+												<tbody>
+													{
+														props.selectedRig.mudSystem.map( item => {
+															return (
+																<tr key={ item.key }>
+																	<td>{ item.key }</td>
+																	<td>{ item.val }</td>
+																</tr>
+															)
+														})
+													}
+												</tbody>
+											</Table>
+										</CardBody>
+									</Card>
+								)
+							}
+							{
+								props.selectedRig.storageCapacities && (
+									<Card className="mb-2">
+										<CardHeader>Storage Capacities</CardHeader>
+										<CardBody>
+											<Table striped bordered>
+												<tbody>
+													{
+														props.selectedRig.storageCapacities.map( item => {
+															return (
+																<tr key={ item.key }>
+																	<td>{ item.key }</td>
+																	<td>{ item.val }</td>
+																</tr>
+															)
+														})
+													}
+												</tbody>
+											</Table>
+										</CardBody>
+									</Card>
+								)
+							}
 						</div>
 					</div>
 				</div>

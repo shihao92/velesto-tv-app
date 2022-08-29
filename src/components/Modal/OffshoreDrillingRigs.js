@@ -36,7 +36,7 @@ const OffshoreDrillingRigsModal = props => {
 						{
 							RIGS_MODEL.map( item => {
 								return (
-									<div key={ item.id } className="col-md-6 d-flex align-items-center justify-content-center">
+									<div key={ item.id } className="col-md-4 d-flex align-items-center justify-content-center">
 										<Card 
 											style={{ cursor: 'pointer' }}
 											onClick={() => {
@@ -47,15 +47,7 @@ const OffshoreDrillingRigsModal = props => {
 												})
 											}}>
 											<CardBody style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column' }}>
-												{/* <div style={{ position: 'absolute', top: 0, left: 0 }}>
-													<ReactLottie
-														options={ MagnifierOptions }
-														height={100}
-														width={100}
-														autoplay={ true }
-														loop={ true } />
-												</div> */}
-												<img src={ item.thumbImg } />
+												<img src={ item.thumbImg } style={{ width: '250px' }} />
 												<h4 className='mt-3'>{ item.id }</h4>
 											</CardBody>
 										</Card>
