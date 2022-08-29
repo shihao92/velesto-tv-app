@@ -4,8 +4,12 @@ import {
 	Table
 } from 'reactstrap'
 import { useState } from 'react'
+import { BiMapPin } from 'react-icons/bi'
+
+import ModalLocator from './Locations'
 
 const OffshoreDrillingRigDetails = props => {
+	const [ showLocator, updateShowLocator ] = useState( false )
   return (
 		<Modal
 			centered={ true }
@@ -13,7 +17,17 @@ const OffshoreDrillingRigDetails = props => {
 			isOpen={ props.showSelectedRigDetails }>
 			<ModalBody>
 				<div className='container-fluid'>
-					<h4>{ props.selectedRig.id }</h4>
+					<div className='d-flex align-items-center'>
+						<h4 className="mb-0">{ props.selectedRig.id }</h4>
+						<Button 
+							color="primary" 
+							className="ml-2"
+							onClick={() => {
+								updateShowLocator( true )
+							}}>
+							<BiMapPin fontSize={ '24px' } />
+						</Button>
+					</div>
 					<hr />
 					<div className='row'>
 						<div className="col-md-4">
@@ -69,6 +83,10 @@ const OffshoreDrillingRigDetails = props => {
 						</div>
 					</div>
 				</div>
+				<ModalLocator
+					showLocator={ showLocator }
+					updateShowLocator={ updateShowLocator }
+					selectedRig={ props.selectedRig } />
 			</ModalBody>
 			<ModalFooter>
 				<Button 

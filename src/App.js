@@ -24,9 +24,9 @@ function App() {
           onClick={() => updateShowOffshoreDrillingRigs( true )}>
           Offshore Drilling Rigs
         </Button>
-        <Button className="btn-hydraulic-workover-units">
+        {/* <Button className="btn-hydraulic-workover-units">
           Hydraulic Workover Units
-        </Button>
+        </Button> */}
         <Button id="audio-play-btn" style={{ visibility: 'hidden' }} onClick={() => audio.play()}>Play</Button>
       </div>
       <ModalOffshoreDrillingRigs 

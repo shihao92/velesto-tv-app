@@ -1,6 +1,7 @@
 export const RIGS_MODEL = [
 	{
-		id: 'Naga 5',
+		id: 'NAGA 5',
+		type: 'NAGA',
 		thumbImg: 'assets/naga5small.jpg',
 		bigImg: "assets/naga5big.jpg",
 		intro1: 'NAGA 5 is a three legged 400 ft independent leg jack-up drilling rig designed and built by Keppel FELS in Singapore. The KFELS B Class jack-up rig has been built to the standards of IMO MODU Code(1989 with 1991 amendments).',
@@ -112,7 +113,8 @@ export const RIGS_MODEL = [
 		]
 	},
 	{
-		id: 'Naga 6',
+		id: 'NAGA 6',
+		type: 'NAGA',
 		thumbImg: 'assets/naga6small.jpg',
 		bigImg: "assets/naga6big.png",
 		intro1: 'NAGA 6 is a three legged 375 ft independent leg jack-up cantilever rig, designed by GustoMSC. Built to the standards of IMO MODU Code 2009 consolidated version.',
