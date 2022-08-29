@@ -33,13 +33,13 @@
 }
 
 .btn-offshore-drilling-rigs {
-  background: linear-gradient(90deg, rgba(0,255,91,1) 0%, rgba(0,20,255,1) 100%);
+  background: linear-gradient(90deg, #0057B8 0%, rgba(0,20,255,1) 100%);
   border: none;
   font-size: 30px;
 }
 
 .btn-hydraulic-workover-units {
-  background: linear-gradient(90deg, rgba(0,229,255,1) 0%, rgba(18,0,255,1) 100%);
+  background: linear-gradient(90deg, #0057B8 0%, rgba(18,0,255,1) 100%);
   border: none;
   font-size: 30px;
 }

@@ -47,14 +47,14 @@ const OffshoreDrillingRigsModal = props => {
 												})
 											}}>
 											<CardBody style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column' }}>
-												<div style={{ position: 'absolute', top: 0, left: 0 }}>
+												{/* <div style={{ position: 'absolute', top: 0, left: 0 }}>
 													<ReactLottie
 														options={ MagnifierOptions }
 														height={100}
 														width={100}
 														autoplay={ true }
 														loop={ true } />
-												</div>
+												</div> */}
 												<img src={ item.thumbImg } />
 												<h4 className='mt-3'>{ item.id }</h4>
 											</CardBody>
