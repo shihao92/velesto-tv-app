@@ -654,15 +654,292 @@ export const RIGS_MODEL = [
 		intro1: 'NAGA 4 is a three legged 400 ft independent leg jack-up drilling rig, designed and built by Keppel FELS in Singapore. The KFELS B Class jack-up rig has been built to the standards of IMO MODU Code (1989 with 1991 amendments) and been delivered in April 2013.',
 		intro2: 'NAGA 4 meets the demands of the offshore drilling industry by providing latest technology in the system and operation of the rig, bigger deck space, 150 POB, capable to drill at 400 ft water depth and deep drilling of 30,000 ft depth.',
 		intro3: '',
-		general: [],
-		mainDimensions: [],
-		drillingEquipment: [],
-		tubulars: [],
-		wellControl: [],
-		liftingEquipment: [],
-		powerPlant: [],
-		mudSystem: [],
-		storageCapacities: []
+		general: [
+			{
+				"key": "Name",
+				"val": "NAGA 4"
+			},
+			{
+				"key": "Design",
+				"val": "Keppel FELS B Class Design"
+			},
+			{
+				"key": "Delivery",
+				"val": "Mar-13"
+			},
+			{
+				"key": "Construction Yard",
+				"val": "Keppel FELS Yard, Singapore"
+			},
+			{
+				"key": "Jack Up Type",
+				"val": "Independent Leg Jack Up Drilling Rig"
+			},
+			{
+				"key": "Flag",
+				"val": "Malaysia"
+			},
+			{
+				"key": "Classification",
+				"val": "ABS"
+			},
+			{
+				"key": "Class Notations",
+				"val": "A1 Self-Elevating Drilling Unit"
+			}
+		],
+		mainDimensions: [
+			{
+				"key": "Length and Breadth",
+				"val": "234 ft x 208 ft"
+			},
+			{
+				"key": "Depth",
+				"val": "25 ft"
+			},
+			{
+				"key": "Draft",
+				"val": "16 ft"
+			},
+			{
+				"key": "Leg Length",
+				"val": "517 ft"
+			},
+			{
+				"key": "Leg Length(under hull)",
+				"val": "460 ft"
+			},
+			{
+				"key": "Leg Spacing",
+				"val": "Transverse: 142 ft, Longitudinal: 129 ft"
+			},
+			{
+				"key": "Spud Can Diameter",
+				"val": "47.20 ft"
+			},
+			{
+				"key": "Bearing Pressure",
+				"val": "9.84 kips/ft2"
+			},
+			{
+				"key": "Design Water Depth",
+				"val": "400 ft"
+			},
+			{
+				"key": "Minimum Water Depth",
+				"val": "22 ft\" Subject to SSA"
+			},
+			{
+				"key": "Drilling Depth",
+				"val": "30,000 ft"
+			},
+			{
+				"key": "Variable Load",
+				"val": "Afloat: 4,500 kips, Elevated: 7,500 kips"
+			},
+			{
+				"key": "Drilling Envelope",
+				"val": "70 ft x 30 ft"
+			},
+			{
+				"key": "Helideck",
+				"val": "Capacity: 12.8 MT"
+			},
+			{
+				"key": "Helideck Compliance",
+				"val": "CAP437"
+			},
+			{
+				"key": "Refueling System",
+				"val": "2 x Wilmax 750 gallon"
+			},
+			{
+				"key": "Accommodation",
+				"val": "150 POB"
+			}
+		],
+		drillingEquipment: [
+			{
+				"key": "Derrick",
+				"val": "Lee C Moore 36 ft x 36 ft x 160 ft"
+			},
+			{
+				"key": "Hookload",
+				"val": "1,500 kips"
+			},
+			{
+				"key": "Drawworks",
+				"val": "NOV ADS-10T, 3,200 HP"
+			},
+			{
+				"key": "Top Drive",
+				"val": "NOV TDS-8SA Rated Capacity : 680 MT"
+			},
+			{
+				"key": "Racking Capacity",
+				"val": "30,000 ft"
+			},
+			{
+				"key": "Pipe Handling",
+				"val": "Forum 16K- OAC"
+			},
+			{
+				"key": "Iron Roughneck",
+				"val": "Primary : NOV AR 3200, Secondary : NOV ST 120"
+			},
+			{
+				"key": "Rotary Table",
+				"val": "NOV RST D495, 49-1/2\""
+			},
+			{
+				"key": "Driller�s Instrumentation",
+				"val": "NOV Amphion System"
+			}
+		],
+		tubulars: [
+			{
+				key: 'Drill Pipe',
+				val: '5 1/2” S135 (21.9 ppf)\n4” S135 (16.38 ppf)'
+			}
+		],
+		wellControl: [
+			{
+				"key": "BOP",
+				"val": "18-3/4\" NOV NXT-M 15,000 psi WP"
+			},
+			{
+				"key": "BOP Annular",
+				"val": "18-3/4\" NOV NXT-M 10,000 psi WP"
+			},
+			{
+				"key": "Diverter",
+				"val": 'Drill-Quip 49"'
+			},
+			{
+				"key": "Choke & Kill Manifold",
+				"val": "3 1 /16\"ID 15,000psi"
+			},
+			{
+				"key": "BOP Hoist",
+				"val": "Ingersoll Rand\\nLifting Capacity : 136 MT"
+			},
+			{
+				"key": "Conductor Tensioner",
+				"val": "ICON T230A 230 MT"
+			}
+		],
+		liftingEquipment: [
+			{
+				"key": "Deck Crane",
+				"val": "3 x Favelle Favco 7.5/10k"
+			},
+			{
+				"key": "Location",
+				"val": "1 x Port Aft, 1 x Port Forward, 1 x Starboard"
+			},
+			{
+				"key": "Main Hoist Capacity",
+				"val": "Up to 45.4 T at 12.2 m, Up to 11.0 T at 36.6 m"
+			},
+			{
+				"key": "Fly Hoist Capacity",
+				"val": "Up to 10.0 T at 35.6m, Up to 9.8 T at 38.6m"
+			}
+		],
+		powerPlant: [
+			{
+				"key": "Main Engines",
+				"val": "5 x Caterpillar 3516C-HD, 2,150 hp"
+			},
+			{
+				"key": "Main Generators",
+				"val": "5 x Baylor @ 1,720 ekW"
+			},
+			{
+				"key": "Emergency Engine",
+				"val": "Caterpillar 3508B-HD DITA"
+			},
+			{
+				"key": "Emergency Generator",
+				"val": "Stamford @1,051 ekW"
+			}
+		],
+		mudSystem: [
+			{
+				"key": "Mud Pumps",
+				"val": "3 x LEWCO W-2215 , 2,200 hp Triplex Type, 7,500 WP"
+			},
+			{
+				"key": "Shale Shakers",
+				"val": "5 x NOV Brandt VSM 300"
+			},
+			{
+				"key": "Desander",
+				"val": "1 x NOV Brandt Integrated with VSM 300"
+			},
+			{
+				"key": "Desilter",
+				"val": "1 x NOV Brandt Integrated with VSM 300"
+			},
+			{
+				"key": "Degasser",
+				"val": "2 x NOV Brandt DG-10"
+			},
+			{
+				"key": "Mud/Gas Separator",
+				"val": "Technic Offshore 177 Psi WP, 10\" ID"
+			}
+		],
+		storageCapacities: [
+			{
+				"key": "Fuel",
+				"val": "3,265 bbl"
+			},
+			{
+				"key": "Potable Water",
+				"val": "2,052 bbl"
+			},
+			{
+				"key": "Liquid Mud",
+				"val": "2,987 bbl"
+			},
+			{
+				"key": "Mud / Brine Tank",
+				"val": "1,036 bbl (interchangeable tank mud/brine)"
+			},
+			{
+				"key": "Brine (Independent)",
+				"val": "1,176 bbl"
+			},
+			{
+				"key": "Barite/Bentonite Silos",
+				"val": "6,000 ft�"
+			},
+			{
+				"key": "Cement Silos",
+				"val": "5,100 ft�"
+			},
+			{
+				"key": "Sack Storage",
+				"val": "5,000 sacks"
+			},
+			{
+				"key": "Base Oil",
+				"val": "1,532 bbl"
+			},
+			{
+				"key": "Preload (Independent)",
+				"val": "46,900.7 bbl"
+			},
+			{
+				"key": "Drill Water (Independent)",
+				"val": "3,825 bbl"
+			},
+			{
+				"key": "Preload / Drill Water Tank",
+				"val": "14,959.2 bbl (interchangeable drill water/preload tank)"
+			}
+		]
 	},
 	{
 		id: 'NAGA 5',
@@ -776,13 +1053,188 @@ export const RIGS_MODEL = [
 				val: '130 POB'
 			}
 		],
-		drillingEquipment: [],
-		tubulars: [],
-		wellControl: [],
-		liftingEquipment: [],
-		powerPlant: [],
-		mudSystem: [],
-		storageCapacities: []
+		drillingEquipment: [
+			{
+				"key": "Derrick",
+				"val": "Lee C Moore 36 ft x 36 ft x 160 ft"
+			},
+			{
+				"key": "Hookload",
+				"val": "1,500 kips"
+			},
+			{
+				"key": "Drawworks",
+				"val": "NOV ADS-10T, 3,200 HP"
+			},
+			{
+				"key": "Top Drive",
+				"val": "NOV TDS-8SA Rated Capacity : 680 MT"
+			},
+			{
+				"key": "Racking Capacity",
+				"val": "30,000 ft"
+			},
+			{
+				"key": "Pipe Handling",
+				"val": "Forum 16K- OAC"
+			},
+			{
+				"key": "Iron Roughneck",
+				"val": "Primary : NOV AR 3200, Secondary : NOV ST 120"
+			},
+			{
+				"key": "Rotary Table",
+				"val": "NOV RST 495, 49-1/2\""
+			},
+			{
+				"key": "Driller�s Instrumentation",
+				"val": "NOV Amphion System"
+			}
+		],
+		tubulars: [
+			{
+				key: 'Drill Pipe',
+				val: `5 1/2" S-135 (21.9 ppf)\n3 1/2" S-135 (15.5 ppf)`
+			}
+		],
+		wellControl: [
+			{
+				"key": "BOP",
+				"val": "18-3/4\" Cameron TL 15,000 psi WP"
+			},
+			{
+				"key": "BOP Annular",
+				"val": "18-3/4\" Cameron DL 10,000 psi WP"
+			},
+			{
+				"key": "Diverter",
+				"val": "Drill-Quip 49 1/2\""
+			},
+			{
+				"key": "Choke & Kill Manifold",
+				"val": "3 1 /16\"ID 15,000psi"
+			},
+			{
+				"key": "BOP Hoist",
+				"val": "Ingersoll Rand\\nLifting Capacity : 136 MT"
+			},
+			{
+				"key": "Conductor Tensioner",
+				"val": "ICON T230A 230 MT"
+			}
+		],
+		liftingEquipment: [
+			{
+				"key": "Deck Crane",
+				"val": "3 x Favelle Favco 7.5/10k"
+			},
+			{
+				"key": "Location",
+				"val": "1 x Port Aft, 1 x Port Forward, 1 x Starboard"
+			},
+			{
+				"key": "Main Hoist Capacity",
+				"val": "Up to 45.4 T at 12.2 m, Up to 11.0 T at 36.6 m"
+			},
+			{
+				"key": "Fly Hoist Capacity",
+				"val": "Up to 10.0 T at 35.6m, Up to 9.8 T at 38.6m"
+			}
+		],
+		powerPlant: [
+			{
+				"key": "Main Engines",
+				"val": "5 x Caterpillar 3516C-HD, 2,150 hp"
+			},
+			{
+				"key": "Main Generators",
+				"val": "5 x Baylor @ 1,720 ekW"
+			},
+			{
+				"key": "Emergency Engine",
+				"val": "Caterpillar 3508B-HD DITA"
+			},
+			{
+				"key": "Emergency Generator",
+				"val": "Stamford @1,051 ekW"
+			}
+		],
+		mudSystem: [
+			{
+				"key": "Mud Pumps",
+				"val": "3 x LEWCO W-2215 , 2,200 hp Triplex Type, 7,500 WP"
+			},
+			{
+				"key": "Shale Shakers",
+				"val": "5 x NOV Brandt VSM 300"
+			},
+			{
+				"key": "Desander",
+				"val": "1 x NOV Brandt Integrated with VSM 300"
+			},
+			{
+				"key": "Desilter",
+				"val": "1 x NOV Brandt Integrated with VSM 300"
+			},
+			{
+				"key": "Degasser",
+				"val": "2 x NOV Brandt DG-10"
+			},
+			{
+				"key": "Mud/Gas Separator",
+				"val": "Technic Offshore 177 Psi WP, 10\" ID"
+			}
+		],
+		storageCapacities: [
+			{
+				"key": "Fuel",
+				"val": "2,724 bbl"
+			},
+			{
+				"key": "Potable Water",
+				"val": "2,052 bbl"
+			},
+			{
+				"key": "Liquid Mud",
+				"val": "2,529 bbl"
+			},
+			{
+				"key": "Mud / Brine Tank",
+				"val": "1,084bbl (interchangeable tank mud/brine)"
+			},
+			{
+				"key": "Brine (Independent)",
+				"val": "855 bbl"
+			},
+			{
+				"key": "Barite/Bentonite Silos",
+				"val": "6,000 ft�"
+			},
+			{
+				"key": "Cement Silos",
+				"val": "5,100 ft�"
+			},
+			{
+				"key": "Sack Storage",
+				"val": "5,000 sacks"
+			},
+			{
+				"key": "Base Oil",
+				"val": "1,797 bbl"
+			},
+			{
+				"key": "Preload (Independent)",
+				"val": "46,071 bbl"
+			},
+			{
+				"key": "Drill Water (Independent)",
+				"val": "3,825 bbl"
+			},
+			{
+				"key": "Preload / Drill Water Tank",
+				"val": "16,094 bbl (interchangeable tank drill / preload)"
+			}
+		]
 	},
 	{
 		id: 'NAGA 6',
@@ -892,30 +1344,470 @@ export const RIGS_MODEL = [
 				val: '124 POB'
 			}
 		],
-		drillingEquipment: [],
-		tubulars: [],
-		wellControl: [],
-		liftingEquipment: [],
-		powerPlant: [],
-		mudSystem: [],
-		storageCapacities: []
+		drillingEquipment: [
+			{
+				"key": "Derrick",
+				"val": "NOV 35ft x 40ft x 170 ft"
+			},
+			{
+				"key": "Hookload",
+				"val": "1,500 kips"
+			},
+			{
+				"key": "Drawworks",
+				"val": "NOV ADS-10T, 3,200 HP"
+			},
+			{
+				"key": "Top Drive",
+				"val": "NOV TDS-8SA Rated Capacity : 680 MT"
+			},
+			{
+				"key": "Racking Capacity",
+				"val": "30,000 ft"
+			},
+			{
+				"key": "Pipe Handling",
+				"val": "PRS-8i Foxhole"
+			},
+			{
+				"key": "Iron Roughneck",
+				"val": "NOV ST 120"
+			},
+			{
+				"key": "Rotary Table",
+				"val": "NOV RST 495, 49-1/2\""
+			},
+			{
+				"key": "Driller�s Instrumentation",
+				"val": "NOV Amphion System"
+			}
+		],
+		tubulars: [
+			{
+				key: 'Drill Pipe',
+				val: `5 7/8" S-135 (23.4 ppf)\n4" S-135 (14 ppf)`
+			}
+		],
+		wellControl: [
+			{
+				"key": "BOP",
+				"val": "18 3 /4\" NOV NXT-M 15,000 psi WP"
+			},
+			{
+				"key": "BOP Annular",
+				"val": "18 3 /4\" NOV SBOP BIG BOY 10,000 psi WP"
+			},
+			{
+				"key": "Diverter",
+				"val": "Vetco Gray KFDJ-500 49 1/2\""
+			},
+			{
+				"key": "Choke & Kill Manifold",
+				"val": "4 1 /16\"ID 15,000psi"
+			},
+			{
+				"key": "BOP Hoist",
+				"val": "J.D. Neuhaus EH 100\\nLifting Capacity : 200 MT"
+			},
+			{
+				"key": "Conductor Tensioner",
+				"val": "PH Hydraulics 225 MT"
+			}
+		],
+		liftingEquipment: [
+			{
+				"key": "Deck Crane",
+				"val": "3 x Favelle Favco 7.5/10k"
+			},
+			{
+				"key": "Location",
+				"val": "1 x Port Aft, 1 x Port Forward, 1 x Starboard"
+			},
+			{
+				"key": "Main Hoist Capacity",
+				"val": "Up to 50.0 T at 12.0 m, Up to 9.2 T at 41.4 m"
+			},
+			{
+				"key": "Fly Hoist Capacity",
+				"val": "Up to 10.0 T at 42.1m, Up to 9.4 T at 43.4m"
+			}
+		],
+		powerPlant: [
+			{
+				"key": "Main Engines",
+				"val": "5 x Caterpillar 3516C-HD, 2,150 hp"
+			},
+			{
+				"key": "Main Generators",
+				"val": "5 x Baylor @ 1,530 ekW"
+			},
+			{
+				"key": "Emergency Engine",
+				"val": "Caterpillar C-32"
+			},
+			{
+				"key": "Emergency Generator",
+				"val": "Leroy Somer @ 900ekW"
+			}
+		],
+		mudSystem: [
+			{
+				"key": "Mud Pumps",
+				"val": "3 x NOV 14-P-220 , 2,200 hp Triplex Type, 7,500 psi WP"
+			},
+			{
+				"key": "Shale Shakers",
+				"val": "4 x DERRICK Flo-Line 504"
+			},
+			{
+				"key": "Desander",
+				"val": "1 x DERRICK DSV-10-3"
+			},
+			{
+				"key": "Desilter",
+				"val": "1 x DERRICK S-420-S"
+			},
+			{
+				"key": "Degasser",
+				"val": "1 x DERRICK Vacu-Flo 1200"
+			},
+			{
+				"key": "Mud/Gas Separator",
+				"val": "NOV Brandt 250 Psi WP, 10\" ID"
+			}
+		],
+		storageCapacities: [
+			{
+				"key": "Fuel",
+				"val": "3,547bbl"
+			},
+			{
+				"key": "Potable Water",
+				"val": "3,698 bbl"
+			},
+			{
+				"key": "Liquid Mud",
+				"val": "4,578 bbl"
+			},
+			{
+				"key": "Brine",
+				"val": "1,276bbl"
+			},
+			{
+				"key": "Barite/Bentonite Silos",
+				"val": "7,486 ft3"
+			},
+			{
+				"key": "Cement Silos",
+				"val": "7,486 ft3"
+			},
+			{
+				"key": "Sack Storage",
+				"val": "5,000 sacks"
+			},
+			{
+				"key": "Base Oil",
+				"val": "1,276 bbl"
+			},
+			{
+				"key": "Preload (Independent)",
+				"val": "52,167 bbl"
+			},
+			{
+				"key": "Preload / Drill Water Tank",
+				"val": "22,325 bbl (interchangeable tank drill / preload)"
+			}
+		]
 	},
 	{
 		id: 'NAGA 8',
 		type: 'NAGA',
 		thumbImg: 'assets/naga8.jpg',
 		bigImg: "assets/naga8.jpg",
-		intro1: '',
-		intro2: '',
+		intro1: 'NAGA 8 is a three legged 400 ft independent leg jack-up drilling rig, designed and built by Keppel FELS in Singapore. The KFELS B Class jack-up rig has been built to the standards of IMO MODU Code (1989 with 1991 amendments) and been delivered in September 2015.',
+		intro2: 'NAGA 8 meets the demands of the offshore drilling industry by providing latest technology in the system and operation of the rig, bigger deck space, 150 POB, capable to drill at 400 ft water depth and deep drilling of 30,000 ft depth.',
 		intro3: '',
-		general: [],
-		mainDimensions: [],
-		drillingEquipment: [],
-		tubulars: [],
-		wellControl: [],
-		liftingEquipment: [],
-		powerPlant: [],
-		mudSystem: [],
-		storageCapacities: []
+		general: [
+			{
+				"key": "Name",
+				"val": "NAGA 8"
+			},
+			{
+				"key": "Design",
+				"val": "Keppel FELS B Class Design"
+			},
+			{
+				"key": "Delivery",
+				"val": "Sep-15"
+			},
+			{
+				"key": "Construction Yard",
+				"val": "Keppel FELS Yard, Singapore"
+			},
+			{
+				"key": "Jack Up Type",
+				"val": "Independent Leg Jack Up Drilling Rig"
+			},
+			{
+				"key": "Flag",
+				"val": "Malaysia"
+			},
+			{
+				"key": "Classification",
+				"val": "ABS"
+			},
+			{
+				"key": "Class Notations",
+				"val": "A1 Self-Elevating Drilling Unit"
+			}
+		],
+		mainDimensions: [
+			{
+				"key": "Length and Breadth",
+				"val": "234 ft x 208 ft"
+			},
+			{
+				"key": "Depth",
+				"val": "25 ft"
+			},
+			{
+				"key": "Draft",
+				"val": "16.5 ft"
+			},
+			{
+				"key": "Leg Length",
+				"val": "517 ft"
+			},
+			{
+				"key": "Leg Length(under hull)",
+				"val": "460 ft"
+			},
+			{
+				"key": "Leg Spacing",
+				"val": "Transverse: 142 ft, Longitudinal: 129 ft"
+			},
+			{
+				"key": "Spud Can Diameter",
+				"val": "53 ft"
+			},
+			{
+				"key": "Bearing Pressure",
+				"val": "8.43 kips/ft2"
+			},
+			{
+				"key": "Design Water Depth",
+				"val": "400 ft"
+			},
+			{
+				"key": "Minimum Water Depth",
+				"val": "22 ft\" Subject to site specific"
+			},
+			{
+				"key": "Drilling Depth",
+				"val": "30,000 ft"
+			},
+			{
+				"key": "Variable Load",
+				"val": "Afloat: 4,000 kips, Elevated: 7,199 kips"
+			},
+			{
+				"key": "Drilling Envelope",
+				"val": "70 ft x 30 ft"
+			},
+			{
+				"key": "Helideck",
+				"val": "Capacity: 12.6 MT"
+			},
+			{
+				"key": "Helideck Compliance",
+				"val": "CAP437"
+			},
+			{
+				"key": "Refueling System",
+				"val": "2 x Wilmax 750 gallon"
+			},
+			{
+				"key": "Accommodation",
+				"val": "150 POB"
+			}
+		],
+		drillingEquipment: [
+			{
+				"key": "Derrick",
+				"val": "Lee C. Moore36ft x 36ft x 160ft"
+			},
+			{
+				"key": "Hookload",
+				"val": "1,500 kips"
+			},
+			{
+				"key": "Drawworks",
+				"val": "NOV ADS-10T, 3,000 HP"
+			},
+			{
+				"key": "Top Drive",
+				"val": "NOV TDS-8SA Rated Capacity : 680 MT"
+			},
+			{
+				"key": "Racking Capacity",
+				"val": "30,000 ft"
+			},
+			{
+				"key": "Pipe Handling",
+				"val": "Forum 16K- OAC"
+			},
+			{
+				"key": "Iron Roughneck",
+				"val": "Primary : NOV AR-3200\nSecondary : NOV ST-120"
+			},
+			{
+				"key": "Rotary Table",
+				"val": "NOV RST 495, 49-1/2\""
+			},
+			{
+				"key": "Driller's Instrumentation",
+				"val": "NOV Amphion System"
+			}
+		],
+		tubulars: [
+			{
+				key: 'Drill Pipe',
+				val: `5 1/2" S-135 (24.7 ppf)\n4" S-135 (15.5 ppf)`
+			}
+		],
+		wellControl: [
+			{
+				"key": "BOP",
+				"val": "18 3 /4\" NOV NXT-M 15,000 psi WP"
+			},
+			{
+				"key": "BOP Annular",
+				"val": "18 3 /4\" NOV SBOP BIG BOY 10,000 psi WP"
+			},
+			{
+				"key": "Diverter",
+				"val": "Vetco Gray KFDJ-500 49 1/2\""
+			},
+			{
+				"key": "Choke & Kill Manifold",
+				"val": "3 1 /16\"ID 15,000psi"
+			},
+			{
+				"key": "BOP Hoist",
+				"val": "Ingersoll Rand Herculink\nLifting Capacity : 150 MT"
+			},
+			{
+				"key": "Conductor Tensioner",
+				"val": "ICON T230 225 MT"
+			}
+		],
+		liftingEquipment: [
+			{
+				"key": "Deck Crane",
+				"val": "3 x Favelle Favco 7.5/10k"
+			},
+			{
+				"key": "Location",
+				"val": "1 x Port Aft, 1 x Port Forward, 1 x Starboard"
+			},
+			{
+				"key": "Main Hoist Capacity",
+				"val": "Up to 45.4 T at 14.0 m, Up to 9.3 T at 41.1 m"
+			},
+			{
+				"key": "Fly Hoist Capacity",
+				"val": "Up to 10.0 T at 40.1 m, Up to 9.0 T at 43.1 m"
+			}
+		],
+		powerPlant: [
+			{
+				"key": "Main Engines",
+				"val": "5 x Caterpillar 3516C-HD, 2,150 hp"
+			},
+			{
+				"key": "Main Generators",
+				"val": "5 x Baylor @ 1,720 ekW"
+			},
+			{
+				"key": "Emergency Engine",
+				"val": "Caterpillar 3508B-DITA"
+			},
+			{
+				"key": "Emergency Generator",
+				"val": "Stamford @1,052 ekW"
+			}
+		],
+		mudSystem: [
+			{
+				"key": "Mud Pumps",
+				"val": "3 x NOV 14-P-220 , 2,200 hp Triplex Type, 7,500 psi WP"
+			},
+			{
+				"key": "Shale Shakers",
+				"val": "5 x NOV Brandt VSM 300"
+			},
+			{
+				"key": "Desander",
+				"val": "1 x NOV Brandt Integrated with VSM 300"
+			},
+			{
+				"key": "Desilter",
+				"val": "1 x NOV Brandt Integrated with VSM 300"
+			},
+			{
+				"key": "Degasser",
+				"val": "2 x NOV Brandt DG-10"
+			},
+			{
+				"key": "Mud/Gas Separator",
+				"val": "Technic Offshore 177 Psi WP, 10\" ID"
+			}
+		],
+		storageCapacities: [
+			{
+				"key": "Fuel",
+				"val": "2732.9bbl"
+			},
+			{
+				"key": "Potable Water",
+				"val": "2052.7bbl"
+			},
+			{
+				"key": "Liquid Mud",
+				"val": "4,624.8bbl"
+			},
+			{
+				"key": "Brine",
+				"val": "1,014bbl"
+			},
+			{
+				"key": "Barite/Bentonite Silos",
+				"val": "6,000 ft�"
+			},
+			{
+				"key": "Cement Silos",
+				"val": "5,100 ft�"
+			},
+			{
+				"key": "Sack Storage",
+				"val": "5,000 sacks"
+			},
+			{
+				"key": "Base Oil",
+				"val": "1,273 bbl"
+			},
+			{
+				"key": "Preload (Independent)",
+				"val": "48309.4bbl"
+			},
+			{
+				"key": "Drill Water(Independent)",
+				"val": "3835.5bbl"
+			},
+			{
+				"key": "Preload / Drill Water Tank",
+				"val": "18871.9bbl (interchangeable tank drill / preload)"
+			}
+		]
 	}
 ]
