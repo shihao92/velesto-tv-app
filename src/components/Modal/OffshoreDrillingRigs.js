@@ -36,7 +36,7 @@ const OffshoreDrillingRigsModal = props => {
 						{
 							RIGS_MODEL.map( item => {
 								return (
-									<div key={ item.id } className="col-md-4 d-flex align-items-center justify-content-center">
+									<div key={ item.id } className="col-md-4 d-flex align-items-center justify-content-center pb-2">
 										<Card 
 											style={{ cursor: 'pointer' }}
 											onClick={() => {

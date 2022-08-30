@@ -5,6 +5,8 @@ import {
 import { useState } from 'react'
 import _ from 'lodash'
 
+import ModalHWUDetails from './HydraulicWorkoverUnitDetails'
+
 import { GAITS_MODEL } from '../../data/gaitsModel'
 
 const HydraulicWorkoverUnitsModal = props => {
@@ -23,7 +25,7 @@ const HydraulicWorkoverUnitsModal = props => {
             {
               GAITS_MODEL.map( item => {
                 return (
-                  <div key={ item.id } className="col-md-6 d-flex align-items-center justify-content-center">
+                  <div key={ item.id } className="col-md-6 d-flex align-items-center justify-content-center pb-2">
 										<Card 
 											style={{ cursor: 'pointer' }}
 											onClick={() => {
@@ -44,6 +46,14 @@ const HydraulicWorkoverUnitsModal = props => {
             }
           </div>
         </div>
+        {
+          !_.isEmpty( selectedHWU ) && (
+            <ModalHWUDetails
+              showSelectedHWU={ showSelectedHWU }
+              selectedHWU={ selectedHWU }
+              updateShowSelectedHWU={ updateShowSelectedHWU } />
+          )
+        }
       </ModalBody>
       <ModalFooter>
 				<Button 

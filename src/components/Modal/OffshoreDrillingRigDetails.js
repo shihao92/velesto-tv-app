@@ -6,7 +6,7 @@ import {
 import { useState } from 'react'
 import { BiMapPin } from 'react-icons/bi'
 
-import ModalLocator from './Locations'
+import ModalLocator from './RigsLocations'
 
 const OffshoreDrillingRigDetails = props => {
 	const [ showLocator, updateShowLocator ] = useState( false )

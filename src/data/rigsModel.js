@@ -561,7 +561,7 @@ export const RIGS_MODEL = [
 			},
 			{
 				"key": "Barite/Bentonite Silos",
-				"val": "7,486 ft�"
+				"val": "7,486 ft3"
 			},
 			{
 				"key": "Cement Silos",
@@ -792,7 +792,7 @@ export const RIGS_MODEL = [
 				"val": "NOV RST D495, 49-1/2\""
 			},
 			{
-				"key": "Driller�s Instrumentation",
+				"key": "Driller's Instrumentation",
 				"val": "NOV Amphion System"
 			}
 		],
@@ -913,11 +913,11 @@ export const RIGS_MODEL = [
 			},
 			{
 				"key": "Barite/Bentonite Silos",
-				"val": "6,000 ft�"
+				"val": "6,000 ft3"
 			},
 			{
 				"key": "Cement Silos",
-				"val": "5,100 ft�"
+				"val": "5,100 ft3"
 			},
 			{
 				"key": "Sack Storage",
@@ -1087,7 +1087,7 @@ export const RIGS_MODEL = [
 				"val": "NOV RST 495, 49-1/2\""
 			},
 			{
-				"key": "Driller�s Instrumentation",
+				"key": "Driller's Instrumentation",
 				"val": "NOV Amphion System"
 			}
 		],
@@ -1208,11 +1208,11 @@ export const RIGS_MODEL = [
 			},
 			{
 				"key": "Barite/Bentonite Silos",
-				"val": "6,000 ft�"
+				"val": "6,000 ft3"
 			},
 			{
 				"key": "Cement Silos",
-				"val": "5,100 ft�"
+				"val": "5,100 ft3"
 			},
 			{
 				"key": "Sack Storage",
@@ -1782,11 +1782,11 @@ export const RIGS_MODEL = [
 			},
 			{
 				"key": "Barite/Bentonite Silos",
-				"val": "6,000 ft�"
+				"val": "6,000 ft3"
 			},
 			{
 				"key": "Cement Silos",
-				"val": "5,100 ft�"
+				"val": "5,100 ft3"
 			},
 			{
 				"key": "Sack Storage",
