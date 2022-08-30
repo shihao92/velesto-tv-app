@@ -241,6 +241,120 @@ const OffshoreDrillingRigDetails = props => {
 									</Card>
 								)
 							}
+							{
+								props.selectedRig.survivalEquipment && (
+									<Card className="mb-2">
+										<CardHeader>Survival Equipment</CardHeader>
+										<CardBody>
+											<Table striped bordered>
+												<tbody>
+													{
+														props.selectedRig.survivalEquipment.map( item => {
+															return (
+																<tr key={ item.key }>
+																	<td>{ item.key }</td>
+																	<td>{ item.val }</td>
+																</tr>
+															)
+														})
+													}
+												</tbody>
+											</Table>
+										</CardBody>
+									</Card>
+								)
+							}
+							{
+								props.selectedRig.mooringEquipment && (
+									<Card className="mb-2">
+										<CardHeader>Mooring Equipment</CardHeader>
+										<CardBody>
+											<Table striped bordered>
+												<tbody>
+													{
+														props.selectedRig.mooringEquipment.map( item => {
+															return (
+																<tr key={ item.key }>
+																	<td>{ item.key }</td>
+																	<td>{ item.val }</td>
+																</tr>
+															)
+														})
+													}
+												</tbody>
+											</Table>
+										</CardBody>
+									</Card>
+								)
+							}
+							{
+								props.selectedRig.jackingSystem && (
+									<Card className="mb-2">
+										<CardHeader>Jacking System</CardHeader>
+										<CardBody>
+											<Table striped bordered>
+												<tbody>
+													{
+														props.selectedRig.jackingSystem.map( item => {
+															return (
+																<tr key={ item.key }>
+																	<td>{ item.key }</td>
+																	<td>{ item.val }</td>
+																</tr>
+															)
+														})
+													}
+												</tbody>
+											</Table>
+										</CardBody>
+									</Card>
+								)
+							}
+							{
+								props.selectedRig.specialFeatures && (
+									<Card className="mb-2">
+										<CardHeader>Special Features & Other Information</CardHeader>
+										<CardBody>
+											<Table striped bordered>
+												<tbody>
+													{
+														props.selectedRig.specialFeatures.map( item => {
+															return (
+																<tr key={ item.key }>
+																	<td>{ item.key }</td>
+																	<td>{ item.val }</td>
+																</tr>
+															)
+														})
+													}
+												</tbody>
+											</Table>
+										</CardBody>
+									</Card>
+								)
+							}
+							{
+								props.selectedRig.offlineSystem && (
+									<Card className="mb-2">
+										<CardHeader>Offline System</CardHeader>
+										<CardBody>
+											<Table striped bordered>
+												<tbody>
+													{
+														props.selectedRig.offlineSystem.map( item => {
+															return (
+																<tr key={ item }>
+																	<td>{ item }</td>
+																</tr>
+															)
+														})
+													}
+												</tbody>
+											</Table>
+										</CardBody>
+									</Card>
+								)
+							}
 						</div>
 					</div>
 				</div>

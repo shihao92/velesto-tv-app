@@ -332,22 +332,327 @@ export const RIGS_MODEL = [
 				"val": "150"
 			}
 		],
-		mainDimensions: [],
-		drillingEquipment: [],
-		tubulars: [],
-		wellControl: [],
-		liftingEquipment: [],
-		powerPlant: [],
-		mudSystem: [],
-		storageCapacities: []
+		mainDimensions: [
+			{
+				"key": "Length and Breadth",
+				"val": "214.07ft x 203.41ft"
+			},
+			{
+				"key": "Depth",
+				"val": "26.24ft"
+			},
+			{
+				"key": "Draft",
+				"val": "16.4ft"
+			},
+			{
+				"key": "Leg Length",
+				"val": "483.5ft"
+			},
+			{
+				"key": "Leg Length(under hull)",
+				"val": "421 ft"
+			},
+			{
+				"key": "Leg Spacing",
+				"val": "Transverse: 150.9 ft, Longitudinal: 131.2 ft"
+			},
+			{
+				"key": "Spud Can Diameter",
+				"val": "45 ft"
+			},
+			{
+				"key": "Bearing Pressure",
+				"val": "10.23 kips/ft2"
+			},
+			{
+				"key": "Design Water Depth",
+				"val": "350 ft"
+			},
+			{
+				"key": "Minimum Water Depth",
+				"val": "22 ft"
+			},
+			{
+				"key": "Drilling Depth",
+				"val": "30,000 ft"
+			},
+			{
+				"key": "Variable Load",
+				"val": "Afloat: 5,511 kips, Elevated: 7,716 kips"
+			},
+			{
+				"key": "Drilling Envelope",
+				"val": "70 ft x 40 ft"
+			},
+			{
+				"key": "Helideck",
+				"val": "Capacity: 12.8 MT"
+			},
+			{
+				"key": "Helideck Compliance",
+				"val": "CAP437"
+			},
+			{
+				"key": "Refueling System",
+				"val": "2 x Wilmax 740 gallon"
+			},
+			{
+				"key": "Accommodation",
+				"val": "150 POB (Upgraded March 2022)"
+			}
+		],
+		drillingEquipment: [
+			{
+				"key": "Derrick",
+				"val": "NOV SSBN 750 35 ft x 35 ft x 160 f"
+			},
+			{
+				"key": "Hookload",
+				"val": "1,500 kips"
+			},
+			{
+				"key": "Drawworks",
+				"val": "NOV D 3000 AC 3000 HP"
+			},
+			{
+				"key": "Top Drive",
+				"val": "NOV TDS-8SA Rated Capacity : 680 MT"
+			},
+			{
+				"key": "Racking Capacity",
+				"val": "30,000 ft"
+			},
+			{
+				"key": "Pipe Handling",
+				"val": "NOV Bridge Racker BR10-SD ( Vertical Column Racker)"
+			},
+			{
+				"key": "Iron Roughneck",
+				"val": "NOV AR3200"
+			},
+			{
+				"key": "Rotary Table",
+				"val": "NOV RST D495, 49-1/2\""
+			},
+			{
+				"key": "Driller's Instrumentation",
+				"val": "NOV Cyberbase System"
+			},
+			{
+				"key": "Hydrualic Cathead",
+				"val": "20x NOV HC-26EV"
+			}
+		],
+		tubulars: [
+			{
+				key: 'Drillpipe',
+				val: '5-1/2" S-135 FH DSTJ (21.9 ppf) 4" DSTJ ST-39 (14 ppf)'
+			}
+		],
+		wellControl: [
+			{
+				"key": "BOP",
+				"val": "18-3/4\" NOV NXT-M 15,000 psi WP"
+			},
+			{
+				"key": "BOP Annular",
+				"val": "18-3/4\" Shaffer SBOP (Wedge Lock Type) 10,000 psi WP"
+			},
+			{
+				"key": "Diverter",
+				"val": "Vetco Gray KFDJ-500 49-1/2\""
+			},
+			{
+				"key": "Choke & Kill Manifold",
+				"val": "3-1/16\" ID 15,000 psi"
+			},
+			{
+				"key": "BOP Hoist",
+				"val": "Ingersoll Rand\\nLifting Capacity : 140 MT"
+			},
+			{
+				"key": "Conductor Tensioner",
+				"val": "NOV 225 MT, Max 30\" Casing"
+			}
+		],
+		liftingEquipment: [
+			{
+				"key": "Deck Crane",
+				"val": "3 x Favelle Favco 7.5/10k"
+			},
+			{
+				"key": "Location",
+				"val": "1 x Port Aft, 1 x Port Forward, 1 x Starboard"
+			},
+			{
+				"key": "Main Hoist Capacity",
+				"val": "Up to 50.0 T at 12.0 m, Up to 9.2 T at 41.4 m"
+			},
+			{
+				"key": "Fly Hoist Capacity",
+				"val": "Up to 10.0 T at 42.1m, Up to 9.4 T at 43.3m"
+			},
+			{
+				"key": "Bridge Racker",
+				"val": "NOV BR10-SD ( Vertical Column Racker)"
+			}
+		],
+		powerPlant: [
+			{
+				"key": "Main Engines",
+				"val": "5 x Caterpillar 3516B-HD, 2,150 hp"
+			},
+			{
+				"key": "Main Generators",
+				"val": "5 x KATO @ 1,720 ekW"
+			},
+			{
+				"key": "Emergency Engine",
+				"val": "Caterpillar 3516B-HD DITA"
+			},
+			{
+				"key": "Emergency Generator",
+				"val": "KATO @1,450 ekW"
+			}
+		],
+		mudSystem: [
+			{
+				"key": "Mud Pumps",
+				"val": "3 x NOV 14-P-220 , 2,200hp Triplex Type, 7,500 WP"
+			},
+			{
+				"key": "Shale Shakers",
+				"val": "5 x NOV VSM 300"
+			},
+			{
+				"key": "Desander",
+				"val": "1 x NOV Brandt Integrated with VSM 300"
+			},
+			{
+				"key": "Desilter",
+				"val": "1 x NOV Brandt Integrated with VSM 300"
+			},
+			{
+				"key": "Degasser",
+				"val": "NOV DG-12"
+			},
+			{
+				"key": "Mud/Gas Separator",
+				"val": 'RB Pipetech 150 psi WP, 12" ID'
+			}
+		],
+		storageCapacities: [
+			{
+				"key": "Fuel",
+				"val": "4,446 bbl"
+			},
+			{
+				"key": "Potable Water",
+				"val": "2,704 bbl"
+			},
+			{
+				"key": "Liquid Mud",
+				"val": "4,365 bbl"
+			},
+			{
+				"key": "Brine",
+				"val": "1,264 bbl"
+			},
+			{
+				"key": "Barite/Bentonite Silos",
+				"val": "7,486 ft�"
+			},
+			{
+				"key": "Cement Silos",
+				"val": "7,486 ft3"
+			},
+			{
+				"key": "Sack Storage",
+				"val": "5,000 sacks"
+			},
+			{
+				"key": "Base Oil",
+				"val": "1,264 bbl"
+			},
+			{
+				"key": "Preload (Independent)",
+				"val": "51,079 bbl"
+			},
+			{
+				"key": "Preload / Drill Water Tank",
+				"val": "20,838 bbl (interchangeable drill water/preload tank)"
+			}
+		],
+		survivalEquipment: [
+			{
+				"key": "Lifeboat Quantity",
+				"val": "5"
+			},
+			{
+				"key": "lifeboat capacity",
+				"val": "4 x 50 pax and 1 x 120 pax (total 320 pax)"
+			},
+			{
+				"key": "Liferaft Quantity",
+				"val": "6"
+			}
+		],
+		mooringEquipment: [
+			{
+				key: 'Mooring Winches',
+				val: '4 x Rolls Royce MW 350/38E single drum, 38mm Wire rope, 43.8 Tons stall pull, 104 tons band break.'
+			},
+			{
+				key: 'Anchor Lines',
+				val: '6 x 36 IWRC Galvanized Rop , 2300 Ft'
+			},
+			{
+				key: 'Anchors',
+				val: '4 x Delta 3.5 MT'
+			}
+		],
+		jackingSystem: [
+			{
+				key: 'No. of Jack or Pinions',
+				val: 'Gusto MSC 6 pinions per chord, 3 x chords per Leg'
+			},
+			{
+				key: 'Max. Jacking Load',
+				val: '15692 kips per Leg'
+			},
+			{
+				key: 'Fixation Avialable',
+				val: 'YES'
+			},
+			{
+				key: 'RPD Monitoring',
+				val: 'YES'
+			}
+		],
+		specialFeatures: [
+			{
+				key: 'Skidding',
+				val: 'X-Y Skidding System'
+			},
+			{
+				key: 'Field Transit',
+				val: 'Capable to rig move with 300 kips of setback in the derrick'
+			}
+		],
+		offlineSystem: [
+			'Ability to make-up and break-out drill pipe offline.',
+			'Ability to perform offline Cementing job (Upgraded in 2020)',
+			'Ability to perform offline Centrifuge'
+		]
 	},
 	{
 		id: 'NAGA 4',
 		type: 'NAGA',
 		thumbImg: 'assets/naga4.jpg',
 		bigImg: "assets/naga4.jpg",
-		intro1: '',
-		intro2: '',
+		intro1: 'NAGA 4 is a three legged 400 ft independent leg jack-up drilling rig, designed and built by Keppel FELS in Singapore. The KFELS B Class jack-up rig has been built to the standards of IMO MODU Code (1989 with 1991 amendments) and been delivered in April 2013.',
+		intro2: 'NAGA 4 meets the demands of the offshore drilling industry by providing latest technology in the system and operation of the rig, bigger deck space, 150 POB, capable to drill at 400 ft water depth and deep drilling of 30,000 ft depth.',
 		intro3: '',
 		general: [],
 		mainDimensions: [],
