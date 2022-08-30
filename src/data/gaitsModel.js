@@ -1,20 +1,26 @@
 export const GAITS_MODEL = [
   {
-    id: 'GAIT 1',
+    id: 'GAIT I',
     type: 'GAIT',
-    thumbImg: 'assets/gait1small.jpg',
-    bigImg: '',
-    intro1: '',
-    intro2: '',
-    intro3: ''
+    thumbImg: 'assets/gait1.jpg',
+    bigImg: 'assets/gait1.jpg'
   },
   {
-    id: 'GAIT 2',
+    id: 'GAIT II',
     type: 'GAIT',
-    thumbImg: 'assets/gait2small.jpg',
-    bigImg: '',
-    intro1: '',
-    intro2: '',
-    intro3: ''
+    thumbImg: 'assets/gait2.jpg',
+    bigImg: 'assets/gait2.jpg'
+  },
+  {
+    id: 'GAIT V',
+    type: 'GAIT',
+    thumbImg: 'assets/gait5.jpg',
+    bigImg: 'assets/gait5.jpg'
+  },
+  {
+    id: 'GAIT VI',
+    type: 'GAIT',
+    thumbImg: 'assets/gait6.jpg',
+    bigImg: 'assets/gait6.jpg'
   }
 ]

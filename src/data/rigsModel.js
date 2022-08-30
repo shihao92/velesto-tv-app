@@ -2,8 +2,8 @@ export const RIGS_MODEL = [
 	{
 		id: 'NAGA 2',
 		type: 'NAGA',
-		thumbImg: 'assets/naga2.jpg',
-		bigImg: "assets/naga2.jpg",
+		thumbImg: 'assets/naga2.png',
+		bigImg: "assets/naga2.png",
 		intro1: 'NAGA 2 is a three legged 350 ft independent leg cantilever driling jack-up rig, designed by GustoMSC and built by Drydocks World SE Asia, Batam Indonesia under licensed. Built to the standard of IMO MODU Code 1989 with 1991, 1994 amendments and consolidated version 2001 and complies with the 1974, 1978 and 1988 Protocol including Amendments up until consolidated version 2001.',
 		intro2: 'NAGA 2 is a high standard unit, with large VDL (3500MT Drilling VDL), bigger deck space, 120 P08, capable to drill at 350 ft water depth and deep driling of 30,000 ft depth.',
 		intro3: "The GustoMSC patented X-Y cantilever design is unique and alows the rotary table to be skidded out to a maximum of 70 It and 20 It from the centre line. The X-Y cantilever enhances drilling efficiency and reduces the weight of the cantilever, thus increasing the unit's capacity. With the X-Y system, the load charts of the cantilever allow for maximum combined loads (1,500 kips) over the full envelop, improving development driling over fixed platforms.",

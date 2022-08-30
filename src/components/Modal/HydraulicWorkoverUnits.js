@@ -34,7 +34,7 @@ const HydraulicWorkoverUnitsModal = props => {
 												})
 											}}>
 											<CardBody style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column' }}>
-												<img src={ item.thumbImg } />
+												<img src={ item.thumbImg } style={{ width: '250px' }} />
 												<h4 className='mt-3'>{ item.id }</h4>
 											</CardBody>
 										</Card>
