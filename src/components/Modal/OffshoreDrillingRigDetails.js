@@ -25,7 +25,7 @@ const OffshoreDrillingRigDetails = props => {
 							onClick={() => {
 								updateShowLocator( true )
 							}}>
-							<BiMapPin fontSize={ '24px' } />
+							Location
 						</Button>
 					</div>
 					<hr />

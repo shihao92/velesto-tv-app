@@ -291,9 +291,9 @@ export const RIGS_MODEL = [
 		type: 'NAGA',
 		thumbImg: 'assets/naga3.jpg',
 		bigImg: "assets/naga3.jpg",
-		intro1: '',
-		intro2: '',
-		intro3: '',
+		intro1: 'NAGA 3 is a three legged 350 ft independent leg cantilever drilling jack-up rig, designed by GustoMSC and built by Drydocks world SE Asia, Batam Indonesia under licensed. Build to the standard of IMO MODU Code 1989 with 1991, 1994 amendments and consolidated version 2001 and complies with the 1974, 1978 and 1988 Protocol including Amendments up until consolidated version 2001.',
+		intro2: 'NAGA 3 is a high standard unit, with large VDL (3500MT Drilling VDL), bigger deck space, 120 POB, capable to drill at 350 ft water depth and deep drilling of 30,000 ft depth.',
+		intro3: `The GustoMSC patented X-Y cantilever design is unique and allows the rotary table to be skidded out to a maximum of 70 ft and 20 ft from the centre line. The X-Y cantilever enhances drilling efficiency and reduces the weight of the cantilever, thus increasing the unit's capacity. With the X-Y system, the load charts of the cantilever allow for maximum combined loads (1,500 kips) over the full envelop, improving development drilling over fixed platforms.`,
 		general: [
 			{
 				"key": "Name",
@@ -944,7 +944,7 @@ export const RIGS_MODEL = [
 	{
 		id: 'NAGA 5',
 		type: 'NAGA',
-		thumbImg: 'assets/naga5small.jpg',
+		thumbImg: 'assets/naga5big.jpg',
 		bigImg: "assets/naga5big.jpg",
 		intro1: 'NAGA 5 is a three legged 400 ft independent leg jack-up drilling rig designed and built by Keppel FELS in Singapore. The KFELS B Class jack-up rig has been built to the standards of IMO MODU Code(1989 with 1991 amendments).',
 		intro2: 'NAGA 5 meets the demands of the offshore drilling industry by providing latest technology in the system and operation of the rig, bigger deck space, 130 POB, capable to drill at 400ft water depth and deep drilling of 30,000 ft depth.',
@@ -1239,7 +1239,7 @@ export const RIGS_MODEL = [
 	{
 		id: 'NAGA 6',
 		type: 'NAGA',
-		thumbImg: 'assets/naga6small.jpg',
+		thumbImg: 'assets/naga6big.jpg',
 		bigImg: "assets/naga6big.png",
 		intro1: 'NAGA 6 is a three legged 375 ft independent leg jack-up cantilever rig, designed by GustoMSC. Built to the standards of IMO MODU Code 2009 consolidated version.',
 		intro2: 'NAGA 6 meets the demands of the offshore drilling industry by providing latest technology in the system and operation of the rig, bigger deck space, 124 POB, capable to drill at 375ft water depth and deep drilling of 30,000ft depth.',

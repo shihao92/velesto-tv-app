@@ -3,23 +3,23 @@ export const GAITS_LOCATION = [
     id: 1,
     name: 'GAIT I',
     location: 'Kemaman Base',
-    top: '400px',
-    left: '330px',
+    top: '150px',
+    left: '130px',
     contentAlignSide: 'left'
   },
   {
     id: 2,
     name: 'GAIT II',
     location: 'Kemaman Base',
-    top: '400px',
-    left: '455px',
+    top: '150px',
+    left: '255px',
     contentAlignSide: 'right'
   },
   {
     id: 5,
     name: 'GAIT V',
     location: 'Offshore Sarawak (Bokor)',
-    top: '430px',
+    top: '190px',
     left: '1000px',
     contentAlignSide: 'right'
   },
@@ -27,8 +27,8 @@ export const GAITS_LOCATION = [
     id: 6,
     name: 'GAIT VI',
     location: 'Offshore Terengganu (Guntong)',
-    top: '340px',
-    left: '580px',
+    top: '100px',
+    left: '430px',
     contentAlignSide: 'right'
   },
 ]
