@@ -20,7 +20,7 @@ export const GAITS_LOCATION = [
     name: 'GAIT V',
     location: 'Offshore Sarawak (Bokor)',
     top: '190px',
-    left: '1000px',
+    left: '900px',
     contentAlignSide: 'right'
   },
   {

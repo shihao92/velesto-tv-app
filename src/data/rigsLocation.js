@@ -12,7 +12,7 @@ export const RIGS_LOCATIONS = [
     name: 'NAGA 4',
     location: 'Temu-1, offshore Sarawak',
     top: '200px',
-    left: '750px',
+    left: '650px',
     contentAlignSide: 'left'
   },
   {
@@ -20,23 +20,23 @@ export const RIGS_LOCATIONS = [
     name: 'NAGA 5',
     location: 'Paprika-1, offshore Sarawak',
     top: '180px',
-    left: '1000px',
+    left: '900px',
     contentAlignSide: 'right'
   },
   {
     id: 4,
     name: 'NAGA 2',
     location: 'Bayan, offshore Sarawak',
-    top: '280px',
-    left: '600px',
+    top: '260px',
+    left: '570px',
     contentAlignSide: 'left'
   },
   {
     id: 5,
     name: 'NAGA 6',
     location: 'Nahara, offshore Sarawak',
-    top: '280px',
-    left: '880px',
+    top: '260px',
+    left: '800px',
     contentAlignSide: 'right'
   },
   {

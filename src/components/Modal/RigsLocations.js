@@ -18,8 +18,8 @@ const LocatorModal = props => {
           <hr />
           <div 
             className="d-flex align-items-center justify-content-center" 
-            style={{ position: 'relative', width: '1500px', marginLeft: 'auto', marginRight: 'auto' }}>
-            <img src={ 'assets/malaysia-map.png' } style={{ width: '1500px' }} />
+            style={{ position: 'relative', width: '1366px', marginLeft: 'auto', marginRight: 'auto' }}>
+            <img src={ 'assets/malaysia-map.png' } style={{ width: '1366px' }} />
             {
               RIGS_LOCATIONS.map( item => {
                 return (
