@@ -328,8 +328,8 @@ export const RIGS_MODEL = [
 				"val": "A1 Self-Elevating Drilling Unit"
 			},
 			{
-				"key": "POB",
-				"val": "150"
+				"key": "Accommodation",
+				"val": "150 POB"
 			}
 		],
 		mainDimensions: [
@@ -405,7 +405,7 @@ export const RIGS_MODEL = [
 		drillingEquipment: [
 			{
 				"key": "Derrick",
-				"val": "NOV SSBN 750 35 ft x 35 ft x 160 f"
+				"val": "NOV SSBN 750 35 ft x 35 ft x 160 ft"
 			},
 			{
 				"key": "Hookload",
@@ -590,7 +590,7 @@ export const RIGS_MODEL = [
 				"val": "5"
 			},
 			{
-				"key": "lifeboat capacity",
+				"key": "Lifeboat capacity",
 				"val": "4 x 50 pax and 1 x 120 pax (total 320 pax)"
 			},
 			{
@@ -601,11 +601,11 @@ export const RIGS_MODEL = [
 		mooringEquipment: [
 			{
 				key: 'Mooring Winches',
-				val: '4 x Rolls Royce MW 350/38E single drum, 38mm Wire rope, 43.8 Tons stall pull, 104 tons band break.'
+				val: '4 x Rolls Royce MW 350/38E single drum, 38mm Wire rope, 43.8 Tons stall pull, 104 tons band brake.'
 			},
 			{
 				key: 'Anchor Lines',
-				val: '6 x 36 IWRC Galvanized Rop , 2300 Ft'
+				val: '6 x 36 IWRC Galvanized Rope, 2300 ft'
 			},
 			{
 				key: 'Anchors',
@@ -622,7 +622,7 @@ export const RIGS_MODEL = [
 				val: '15692 kips per Leg'
 			},
 			{
-				key: 'Fixation Avialable',
+				key: 'Fixation Available',
 				val: 'YES'
 			},
 			{
@@ -642,7 +642,7 @@ export const RIGS_MODEL = [
 		],
 		offlineSystem: [
 			'Ability to make-up and break-out drill pipe offline.',
-			'Ability to perform offline Cementing job (Upgraded in 2020)',
+			'Ability to perform offline Cementing job',
 			'Ability to perform offline Centrifuge'
 		]
 	},
