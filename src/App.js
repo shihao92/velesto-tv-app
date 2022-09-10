@@ -37,7 +37,7 @@ function App() {
         }
       </Button>
       <div className="main-menu-panel animate__animated animate__fadeIn">
-        <img src={ "assets/brand.png" } className="brand-img" />
+        <img src={ "assets/brand.png" } className="brand-img" loading={ "lazy" } />
         <Button 
           className="btn-offshore-drilling-rigs mb-3 mt-3"
           onClick={() => updateShowOffshoreDrillingRigs( true )}>

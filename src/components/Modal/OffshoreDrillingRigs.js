@@ -25,6 +25,7 @@ const OffshoreDrillingRigsModal = props => {
 	const [ showSelectedRigDetails, updateShowSelectedRigDetails ] = useState( false )
 	return (
 		<Modal
+			fade={ false }
 			centered={ true }
 			fullscreen={ true }
 			isOpen={ props.showOffshoreDrillingRigs }>
@@ -47,7 +48,7 @@ const OffshoreDrillingRigsModal = props => {
 												})
 											}}>
 											<CardBody style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column' }}>
-												<img src={ item.thumbImg } style={{ width: '250px' }} />
+												<img src={ item.thumbImg } style={{ width: '250px' }} loading={ "lazy" } />
 												<h4 className='mt-3'>{ item.id }</h4>
 											</CardBody>
 										</Card>

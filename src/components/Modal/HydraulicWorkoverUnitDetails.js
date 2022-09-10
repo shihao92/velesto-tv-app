@@ -14,6 +14,7 @@ const HWUDetails = props => {
     <Modal
 			centered={ true }
 			fullscreen={ true }
+			fade={ false }
 			isOpen={ props.showSelectedHWU }>
 			<ModalBody>
 				<div className='container-fluid'>
@@ -31,7 +32,7 @@ const HWUDetails = props => {
 					<hr />
 					<div className='row'>
 						<div className="col-md-4">
-							<img src={ props.selectedHWU.bigImg } className="w-100" />
+							<img src={ props.selectedHWU.bigImg } className="w-100" loading={ "lazy" } />
 						</div>
 						<div className="col-md-8">
               <Card className="mb-2">

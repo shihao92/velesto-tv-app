@@ -5,6 +5,7 @@ import {
 } from 'reactstrap'
 import { useState } from 'react'
 import { BiMapPin } from 'react-icons/bi'
+import reacthtmlparser from 'react-html-parser'
 
 import ModalLocator from './RigsLocations'
 
@@ -12,6 +13,7 @@ const OffshoreDrillingRigDetails = props => {
 	const [ showLocator, updateShowLocator ] = useState( false )
   return (
 		<Modal
+		 	fade={ false }
 			centered={ true }
 			fullscreen={ true }
 			isOpen={ props.showSelectedRigDetails }>
@@ -31,7 +33,7 @@ const OffshoreDrillingRigDetails = props => {
 					<hr />
 					<div className='row'>
 						<div className="col-md-4">
-							<img src={ props.selectedRig.bigImg } className="w-100" />
+							<img src={ props.selectedRig.bigImg } className="w-100" loading={ "lazy" } />
 						</div>
 						<div className="col-md-8">
 							<Card className="mb-2">
@@ -52,7 +54,7 @@ const OffshoreDrillingRigDetails = props => {
 													return (
 														<tr key={ item.key }>
 															<td>{ item.key }</td>
-															<td>{ item.val }</td>
+															<td>{ reacthtmlparser( item.val ) }</td>
 														</tr>
 													)
 												})
@@ -71,7 +73,7 @@ const OffshoreDrillingRigDetails = props => {
 													return (
 														<tr key={ item.key }>
 															<td>{ item.key }</td>
-															<td>{ item.val }</td>
+															<td>{ reacthtmlparser( item.val ) }</td>
 														</tr>
 													)
 												})
@@ -92,7 +94,7 @@ const OffshoreDrillingRigDetails = props => {
 															return (
 																<tr key={ item.key }>
 																	<td>{ item.key }</td>
-																	<td>{ item.val }</td>
+																	<td>{ reacthtmlparser( item.val ) }</td>
 																</tr>
 															)
 														})
@@ -115,7 +117,7 @@ const OffshoreDrillingRigDetails = props => {
 															return (
 																<tr key={ item.key }>
 																	<td>{ item.key }</td>
-																	<td>{ item.val }</td>
+																	<td>{ reacthtmlparser( item.val ) }</td>
 																</tr>
 															)
 														})
@@ -138,7 +140,7 @@ const OffshoreDrillingRigDetails = props => {
 															return (
 																<tr key={ item.key }>
 																	<td>{ item.key }</td>
-																	<td>{ item.val }</td>
+																	<td>{ reacthtmlparser( item.val ) }</td>
 																</tr>
 															)
 														})
@@ -161,7 +163,7 @@ const OffshoreDrillingRigDetails = props => {
 															return (
 																<tr key={ item.key }>
 																	<td>{ item.key }</td>
-																	<td>{ item.val }</td>
+																	<td>{ reacthtmlparser( item.val ) }</td>
 																</tr>
 															)
 														})
@@ -184,7 +186,7 @@ const OffshoreDrillingRigDetails = props => {
 															return (
 																<tr key={ item.key }>
 																	<td>{ item.key }</td>
-																	<td>{ item.val }</td>
+																	<td>{ reacthtmlparser( item.val ) }</td>
 																</tr>
 															)
 														})
@@ -207,7 +209,7 @@ const OffshoreDrillingRigDetails = props => {
 															return (
 																<tr key={ item.key }>
 																	<td>{ item.key }</td>
-																	<td>{ item.val }</td>
+																	<td>{ reacthtmlparser( item.val ) }</td>
 																</tr>
 															)
 														})
@@ -230,7 +232,7 @@ const OffshoreDrillingRigDetails = props => {
 															return (
 																<tr key={ item.key }>
 																	<td>{ item.key }</td>
-																	<td>{ item.val }</td>
+																	<td>{ reacthtmlparser( item.val ) }</td>
 																</tr>
 															)
 														})
@@ -253,7 +255,7 @@ const OffshoreDrillingRigDetails = props => {
 															return (
 																<tr key={ item.key }>
 																	<td>{ item.key }</td>
-																	<td>{ item.val }</td>
+																	<td>{ reacthtmlparser( item.val ) }</td>
 																</tr>
 															)
 														})
@@ -276,7 +278,7 @@ const OffshoreDrillingRigDetails = props => {
 															return (
 																<tr key={ item.key }>
 																	<td>{ item.key }</td>
-																	<td>{ item.val }</td>
+																	<td>{ reacthtmlparser( item.val ) }</td>
 																</tr>
 															)
 														})
@@ -299,7 +301,7 @@ const OffshoreDrillingRigDetails = props => {
 															return (
 																<tr key={ item.key }>
 																	<td>{ item.key }</td>
-																	<td>{ item.val }</td>
+																	<td>{ reacthtmlparser( item.val ) }</td>
 																</tr>
 															)
 														})
@@ -322,7 +324,7 @@ const OffshoreDrillingRigDetails = props => {
 															return (
 																<tr key={ item.key }>
 																	<td>{ item.key }</td>
-																	<td>{ item.val }</td>
+																	<td>{ reacthtmlparser( item.val ) }</td>
 																</tr>
 															)
 														})

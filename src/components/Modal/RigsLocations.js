@@ -11,6 +11,7 @@ const LocatorModal = props => {
     <Modal
 			centered={ true }
 			fullscreen={ true }
+      fade={ false }
 			isOpen={ props.showLocator }>
       <ModalBody>
         <div className='container-fluid'>
@@ -18,8 +19,8 @@ const LocatorModal = props => {
           <hr />
           <div 
             className="d-flex align-items-center justify-content-center" 
-            style={{ position: 'relative', width: '1366px', marginLeft: 'auto', marginRight: 'auto' }}>
-            <img src={ 'assets/malaysia-map.png' } style={{ width: '1366px' }} />
+            style={{ position: 'relative', width: '100%', marginLeft: 'auto', marginRight: 'auto' }}>
+            <img src={ 'assets/malaysia-map.png' } style={{ width: '100%' }} loading={ "lazy" } />
             {
               RIGS_LOCATIONS.map( item => {
                 return (

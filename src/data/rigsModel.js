@@ -152,17 +152,17 @@ export const RIGS_MODEL = [
 		tubulars: [
 			{
 				key: 'Drill Pipe',
-				val: `51/2” S-135 (21.9 ppf)\n3 1/2"S-135 (14 ppf)`
+				val: `51/2” S-135 (21.9 ppf)<br>3 1/2"S-135 (14 ppf)`
 			}
 		],
 		wellControl: [
 			{
 				"key": "BOP",
-				"val": `183 /4" - NOV\\n15,000 psi WP`
+				"val": `183 /4" - NOV<br>15,000 psi WP`
 			},
 			{
 				"key": "BOP Annular",
-				"val": `183 /4" NOV WEDGE BOP\\n10,000 psi WP`
+				"val": `183 /4" NOV WEDGE BOP<br>10,000 psi WP`
 			},
 			{
 				"key": "Diverter",
@@ -174,7 +174,7 @@ export const RIGS_MODEL = [
 			},
 			{
 				"key": "BOP Hoist",
-				"val": "Ingersoll Rand\\nLifting Capacity : 150 MT"
+				"val": "Ingersoll Rand<br>Lifting Capacity : 150 MT"
 			},
 			{
 				"key": "Conductor Tensioner",
@@ -469,7 +469,7 @@ export const RIGS_MODEL = [
 			},
 			{
 				"key": "BOP Hoist",
-				"val": "Ingersoll Rand\\nLifting Capacity : 140 MT"
+				"val": "Ingersoll Rand<br>Lifting Capacity : 140 MT"
 			},
 			{
 				"key": "Conductor Tensioner",
@@ -799,7 +799,7 @@ export const RIGS_MODEL = [
 		tubulars: [
 			{
 				key: 'Drill Pipe',
-				val: '5 1/2” S135 (21.9 ppf)\n4” S135 (16.38 ppf)'
+				val: '5 1/2” S135 (21.9 ppf)<br>4” S135 (16.38 ppf)'
 			}
 		],
 		wellControl: [
@@ -821,7 +821,7 @@ export const RIGS_MODEL = [
 			},
 			{
 				"key": "BOP Hoist",
-				"val": "Ingersoll Rand\\nLifting Capacity : 136 MT"
+				"val": "Ingersoll Rand<br>Lifting Capacity : 136 MT"
 			},
 			{
 				"key": "Conductor Tensioner",
@@ -947,7 +947,7 @@ export const RIGS_MODEL = [
 		thumbImg: 'assets/naga5big.jpg',
 		bigImg: "assets/naga5big.jpg",
 		intro1: 'NAGA 5 is a three legged 400 ft independent leg jack-up drilling rig designed and built by Keppel FELS in Singapore. The KFELS B Class jack-up rig has been built to the standards of IMO MODU Code(1989 with 1991 amendments).',
-		intro2: 'NAGA 5 meets the demands of the offshore drilling industry by providing latest technology in the system and operation of the rig, bigger deck space, 130 POB, capable to drill at 400ft water depth and deep drilling of 30,000 ft depth.',
+		intro2: 'NAGA 5 meets the demands of the offshore drilling industry by providing latest technology in rig systems and operations, bigger deck space, 150 maximum POB, capable to drill at 400ft water depth and deep drilling of 30,000 ft depth with various offline capabilities.',
 		intro3: '',
 		general: [
 			{
@@ -986,7 +986,7 @@ export const RIGS_MODEL = [
 		mainDimensions: [
 			{
 				key: 'Length and Breadth',
-				val: '234 ft x 208 f'
+				val: '234 ft x 208 ft'
 			}, 
 			{
 				key: 'Depth',
@@ -1014,7 +1014,7 @@ export const RIGS_MODEL = [
 			},
 			{
 				key: 'Bearing Pressure',
-				val: '9.84 kips/ft2'
+				val: '9.84 kips/ft\u00B2'
 			},
 			{
 				key: 'Design Water Depth',
@@ -1050,7 +1050,7 @@ export const RIGS_MODEL = [
 			},
 			{
 				key: 'Accommodation',
-				val: '130 POB'
+				val: '150 POB (maximum)'
 			}
 		],
 		drillingEquipment: [
@@ -1080,7 +1080,7 @@ export const RIGS_MODEL = [
 			},
 			{
 				"key": "Iron Roughneck",
-				"val": "Primary : NOV AR 3200, Secondary : NOV ST 120"
+				"val": "Primary : NOV AR 3200<br>Secondary : NOV ST 120"
 			},
 			{
 				"key": "Rotary Table",
@@ -1094,7 +1094,7 @@ export const RIGS_MODEL = [
 		tubulars: [
 			{
 				key: 'Drill Pipe',
-				val: `5 1/2" S-135 (21.9 ppf)\n3 1/2" S-135 (15.5 ppf)`
+				val: `5 1/2" S-135 (21.9 ppf)<br>3 1/2" S-135 (15.5 ppf)`
 			}
 		],
 		wellControl: [
@@ -1112,11 +1112,11 @@ export const RIGS_MODEL = [
 			},
 			{
 				"key": "Choke & Kill Manifold",
-				"val": "3 1 /16\"ID 15,000psi"
+				"val": "3-1/16\"ID 15,000psi"
 			},
 			{
 				"key": "BOP Hoist",
-				"val": "Ingersoll Rand\\nLifting Capacity : 136 MT"
+				"val": "Ingersoll Rand<br>Lifting Capacity : 136 MT"
 			},
 			{
 				"key": "Conductor Tensioner",
@@ -1137,8 +1137,16 @@ export const RIGS_MODEL = [
 				"val": "Up to 45.4 T at 12.2 m, Up to 11.0 T at 36.6 m"
 			},
 			{
-				"key": "Fly Hoist Capacity",
-				"val": "Up to 10.0 T at 35.6m, Up to 9.8 T at 38.6m"
+				key: 'Multipurpose Cranes',
+				val: '2 x Forum /15K-VP 15,000 lbs<br>(6,804 kg)'
+			},
+			{
+				"key": "Location",
+				"val": "Cantilever Starboard and Port side cellar deck"
+			},
+			{
+				key: 'Fly Hoist Capacity',
+				val: 'Up to 6.8T at 10 m'
 			}
 		],
 		powerPlant: [
@@ -1152,7 +1160,7 @@ export const RIGS_MODEL = [
 			},
 			{
 				"key": "Emergency Engine",
-				"val": "Caterpillar 3508B-HD DITA"
+				"val": "Caterpillar 3508B DITA"
 			},
 			{
 				"key": "Emergency Generator",
@@ -1195,8 +1203,8 @@ export const RIGS_MODEL = [
 				"val": "2,052 bbl"
 			},
 			{
-				"key": "Liquid Mud",
-				"val": "2,529 bbl"
+				"key": "Liquid Mud (Independent)",
+				"val": "3,396.3 bbl (mud pit + pre mix)"
 			},
 			{
 				"key": "Mud / Brine Tank",
@@ -1204,7 +1212,7 @@ export const RIGS_MODEL = [
 			},
 			{
 				"key": "Brine (Independent)",
-				"val": "855 bbl"
+				"val": "855.1 bbl"
 			},
 			{
 				"key": "Barite/Bentonite Silos",
@@ -1220,11 +1228,11 @@ export const RIGS_MODEL = [
 			},
 			{
 				"key": "Base Oil",
-				"val": "1,797 bbl"
+				"val": "1,135 bbl"
 			},
 			{
 				"key": "Preload (Independent)",
-				"val": "46,071 bbl"
+				"val": "47,206.2 bbl"
 			},
 			{
 				"key": "Drill Water (Independent)",
@@ -1232,7 +1240,7 @@ export const RIGS_MODEL = [
 			},
 			{
 				"key": "Preload / Drill Water Tank",
-				"val": "16,094 bbl (interchangeable tank drill / preload)"
+				"val": "16,094.2 bbl (interchangeable tank drill / preload)"
 			}
 		]
 	},
@@ -1259,7 +1267,7 @@ export const RIGS_MODEL = [
 			},
 			{
 				key: 'Construction Yard',
-				val: 'Chine Merchants Heavy Ind. (Shenzhen) Co. Ltd, China'
+				val: 'China Merchants Heavy Ind. (Shenzhen) Co. Ltd, China'
 			},
 			{
 				key: 'Jack Up Type',
@@ -1272,6 +1280,10 @@ export const RIGS_MODEL = [
 			{
 				key: 'Classification',
 				val: 'ABS'
+			},
+			{
+				key: 'Class Notations',
+				val: 'A1 Self-Elevating Drilling Unit'
 			}
 		],
 		mainDimensions: [
@@ -1288,8 +1300,8 @@ export const RIGS_MODEL = [
 				val: '14.7ft'
 			},
 			{
-				key: 'Leg Length',
-				val: 'Transverse: 150ft, Longitudinal : 131ft'
+				key: 'Leg Spacing',
+				val: '503 ft'
 			},
 			{
 				key: 'Leg Length (under hull)',
@@ -1305,7 +1317,7 @@ export const RIGS_MODEL = [
 			},
 			{
 				key: 'Bearing Pressure',
-				val: '10.77 kips/ft2'
+				val: '10.77 kips/ft'
 			},
 			{
 				key: 'Design Water Depth',
@@ -1341,7 +1353,7 @@ export const RIGS_MODEL = [
 			},
 			{
 				key: 'Accommodation',
-				val: '124 POB'
+				val: '150 POB'
 			}
 		],
 		drillingEquipment: [
@@ -1359,7 +1371,7 @@ export const RIGS_MODEL = [
 			},
 			{
 				"key": "Top Drive",
-				"val": "NOV TDS-8SA Rated Capacity : 680 MT"
+				"val": "NOV TDS-8SA<br>Rated Capacity : 680 MT"
 			},
 			{
 				"key": "Racking Capacity",
@@ -1370,6 +1382,10 @@ export const RIGS_MODEL = [
 				"val": "PRS-8i Foxhole"
 			},
 			{
+				key: 'Catwalk Shuttle',
+				val: 'Handling tubular up to 36"'
+			},
+			{
 				"key": "Iron Roughneck",
 				"val": "NOV ST 120"
 			},
@@ -1378,24 +1394,28 @@ export const RIGS_MODEL = [
 				"val": "NOV RST 495, 49-1/2\""
 			},
 			{
-				"key": "Driller�s Instrumentation",
+				key: 'Hydraulic Cathead',
+				val: '2x NOV HC-26EV'
+			},
+			{
+				"key": "Driller's Instrumentation",
 				"val": "NOV Amphion System"
 			}
 		],
 		tubulars: [
 			{
 				key: 'Drill Pipe',
-				val: `5 7/8" S-135 (23.4 ppf)\n4" S-135 (14 ppf)`
+				val: `5 7/8" S-135 FH DSTJ (21.9 ppf)<br>4" DSTJ ST-39 (14 ppf)`
 			}
 		],
 		wellControl: [
 			{
 				"key": "BOP",
-				"val": "18 3 /4\" NOV NXT-M 15,000 psi WP"
+				"val": "18 3 /4\" NOV NXT-M<br>15,000 psi WP"
 			},
 			{
 				"key": "BOP Annular",
-				"val": "18 3 /4\" NOV SBOP BIG BOY 10,000 psi WP"
+				"val": "18 3 /4\" NOV SBOP BIG BOY<br>10,000 psi WP"
 			},
 			{
 				"key": "Diverter",
@@ -1403,15 +1423,15 @@ export const RIGS_MODEL = [
 			},
 			{
 				"key": "Choke & Kill Manifold",
-				"val": "4 1 /16\"ID 15,000psi"
+				"val": "4-1/16\"ID 15,000psi"
 			},
 			{
 				"key": "BOP Hoist",
-				"val": "J.D. Neuhaus EH 100\\nLifting Capacity : 200 MT"
+				"val": "J.D. Neuhaus EH 100<br>Lifting Capacity : 200 MT"
 			},
 			{
 				"key": "Conductor Tensioner",
-				"val": "PH Hydraulics 225 MT"
+				"val": "PH Hydraulics 225 MT, Max 30\" Casing"
 			}
 		],
 		liftingEquipment: [
@@ -1430,20 +1450,24 @@ export const RIGS_MODEL = [
 			{
 				"key": "Fly Hoist Capacity",
 				"val": "Up to 10.0 T at 42.1m, Up to 9.4 T at 43.4m"
+			},
+			{
+				key: 'Knuckle Boom Crane',
+				val: 'NOV Knuckle Boom pipe handling crane with lifting pad eyes 7 MT, with gripper yoke for 2-7/8" to 20"'
 			}
 		],
 		powerPlant: [
 			{
 				"key": "Main Engines",
-				"val": "5 x Caterpillar 3516C-HD, 2,150 hp"
+				"val": "5 x Caterpillar 3516C-HD<br>2,150 hp"
 			},
 			{
 				"key": "Main Generators",
-				"val": "5 x Baylor @ 1,530 ekW"
+				"val": "5 x KATO @ 1,530 ekW"
 			},
 			{
 				"key": "Emergency Engine",
-				"val": "Caterpillar C-32"
+				"val": "Caterpillar C-32 with air shut off valve"
 			},
 			{
 				"key": "Emergency Generator",
@@ -1453,7 +1477,7 @@ export const RIGS_MODEL = [
 		mudSystem: [
 			{
 				"key": "Mud Pumps",
-				"val": "3 x NOV 14-P-220 , 2,200 hp Triplex Type, 7,500 psi WP"
+				"val": "3 x NOV 14-P-220 , 2,200 hp Triplex Type, 7,500 psi"
 			},
 			{
 				"key": "Shale Shakers",
@@ -1517,6 +1541,76 @@ export const RIGS_MODEL = [
 				"key": "Preload / Drill Water Tank",
 				"val": "22,325 bbl (interchangeable tank drill / preload)"
 			}
+		],
+		survivalEquipment: [
+			{
+				key: 'Lifeboat Quantity',
+				val: '4'
+			},
+			{
+				key: 'Lifeboat capacity',
+				val: '65 person/craft'
+			},
+			{
+				key: 'Life raft Quantity',
+				val: '6'
+			}
+		],
+		mooringEquipment: [
+			{
+				key: 'Mooring Winches',
+				val: '4 x PH Electric Driven, single drum, 38mm Wire rope, 35 tons stall pull, 104 tons band break.'
+			},
+			{
+				key: 'Anchor Lines',
+				val: ''
+			},
+			{
+				key: 'Anchors',
+				val: ''
+			}
+		],
+		jackingSystem: [
+			{
+				key: 'No. of Jack or Pinions',
+				val: '6 pinions per chord, 3 x chords per leg,'
+			},
+			{
+				key: 'Max. Jacking Load',
+				val: '296 MT per pinion, 5328 MT per leg'
+			},
+			{
+				key: 'Fixation Available',
+				val: 'YES'
+			},
+			{
+				key: 'RPD Monitoring',
+				val: 'YES'
+			}
+		],
+		specialFeatures: [
+			{
+				key: 'HPHT & MPD',
+				val: 'Equipped for HPHT & MPD operation'
+			},
+			{
+				key: 'EKD',
+				val: 'Equipped for EKD Installation'
+			},
+			{
+				key: 'Skidding',
+				val: 'X-Y Skidding System'
+			},
+			{
+				key: 'Field Transit',
+				val: 'Capable to rig move with 300 kips of setback in the derrick'
+			}
+		],
+		offlineSystem: [
+			'Ability to make-up and break-out drill pipe offline.',
+			'Ability to perform offline Cementing job',
+			'Ability to perform offline centrifuge',
+			'Twin Chela cranes for Platform offline activities'
 		]
 	},
 	{
@@ -1658,7 +1752,7 @@ export const RIGS_MODEL = [
 			},
 			{
 				"key": "Iron Roughneck",
-				"val": "Primary : NOV AR-3200\nSecondary : NOV ST-120"
+				"val": "Primary : NOV AR-3200<br>Secondary : NOV ST-120"
 			},
 			{
 				"key": "Rotary Table",
@@ -1672,7 +1766,7 @@ export const RIGS_MODEL = [
 		tubulars: [
 			{
 				key: 'Drill Pipe',
-				val: `5 1/2" S-135 (24.7 ppf)\n4" S-135 (15.5 ppf)`
+				val: `5 1/2" S-135 (24.7 ppf)<br>4" S-135 (15.5 ppf)`
 			}
 		],
 		wellControl: [
@@ -1694,7 +1788,7 @@ export const RIGS_MODEL = [
 			},
 			{
 				"key": "BOP Hoist",
-				"val": "Ingersoll Rand Herculink\nLifting Capacity : 150 MT"
+				"val": "Ingersoll Rand Herculink<br>Lifting Capacity : 150 MT"
 			},
 			{
 				"key": "Conductor Tensioner",

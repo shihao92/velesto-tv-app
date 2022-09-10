@@ -16,6 +16,7 @@ const HydraulicWorkoverUnitsModal = props => {
     <Modal
 			centered={ true }
 			fullscreen={ true }
+			fade={ false }
 			isOpen={ props.showHydraulicWorkoverUnits }>
 			<ModalBody>
 				<div className='container-fluid'>
@@ -36,7 +37,7 @@ const HydraulicWorkoverUnitsModal = props => {
 												})
 											}}>
 											<CardBody style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column' }}>
-												<img src={ item.thumbImg } style={{ width: '250px' }} />
+												<img src={ item.thumbImg } style={{ width: '250px' }} loading={ "lazy" } />
 												<h4 className='mt-3'>{ item.id }</h4>
 											</CardBody>
 										</Card>
