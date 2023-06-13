@@ -18,10 +18,10 @@ export const GAITS_LOCATION = [
   {
     id: 5,
     name: 'GAIT V',
-    location: 'Tembungo - A',
-    top: '70px',
+    location: 'Tembungo A',
+    top: '60px',
     left: '700px',
-    contentAlignSide: 'right'
+    contentAlignSide: 'left'
   },
   {
     id: 6,
