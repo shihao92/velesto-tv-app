@@ -19,7 +19,7 @@ const LocatorModal = props => {
           <hr />
           <div 
             className="d-flex align-items-center justify-content-center" 
-            style={{ position: 'relative', width: '100%', marginLeft: 'auto', marginRight: 'auto' }}>
+            style={{ position: 'relative', width: '1050px', marginLeft: 'auto', marginRight: 'auto' }}>
             <img src={ 'assets/malaysia-map.png' } style={{ width: '100%' }} loading={ "lazy" } />
             {
               RIGS_LOCATIONS.map( item => {
@@ -27,14 +27,23 @@ const LocatorModal = props => {
                   <div 
                     key={ `location-${ item.id }` }
                     className={ props.selectedRig.id === item.name ? `animate__animated animate__bounce animate__infinite` : '' }
-                    style={{
-                      position: 'absolute',
-                      top: item.top,
-                      left: item.left,
-                      display: 'flex',
-                      flexDirection: 'row',
-                      alignItems: 'center'
-                    }}>
+                    style={
+                      item.left ?{
+                        position: 'absolute',
+                        top: item.top,
+                        left: item.left,
+                        display: 'flex',
+                        flexDirection: 'row',
+                        alignItems: 'center'
+                      } : {
+                        position: 'absolute',
+                        top: item.top,
+                        right: item.right,
+                        display: 'flex',
+                        flexDirection: 'row',
+                        alignItems: 'center'
+                      }
+                    }>
                     {
                       item.contentAlignSide === 'left' && (
                         <div style={{ textAlign: 'right', backgroundColor: 'rgba(255,255,255,0.7)', padding: '10px', borderRadius: '10px' }}>

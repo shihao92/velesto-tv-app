@@ -2,49 +2,49 @@ export const RIGS_LOCATIONS = [
   {
     id: 1,
     name: 'NAGA 8',
-    location: 'Bumi C, offshore Peninsular Malaysia',
-    top: '50px',
+    location: 'Carigali HESS',
+    top: '20px',
     left: '200px',
     contentAlignSide: 'right'
   },
   {
     id: 2,
     name: 'NAGA 4',
-    location: 'Temu-1, offshore Sarawak',
-    top: '120px',
-    left: '460px',
+    location: 'SPS',
+    top: '300px',
+    left: '145px',
     contentAlignSide: 'left'
   },
   {
     id: 3,
     name: 'NAGA 5',
-    location: 'Paprika-1, offshore Sarawak',
-    top: '115px',
-    left: '700px',
+    location: 'HESS',
+    top: '80px',
+    left: '270px',
     contentAlignSide: 'right'
   },
-  {
-    id: 4,
-    name: 'NAGA 2',
-    location: 'Bayan, offshore Sarawak',
-    top: '180px',
-    left: '460px',
-    contentAlignSide: 'left'
-  },
+  // {
+  //   id: 4,
+  //   name: 'NAGA 2',
+  //   location: 'Roc Oil',
+  //   top: '180px',
+  //   right: '400px',
+  //   contentAlignSide: 'left'
+  // },
   {
     id: 5,
-    name: 'NAGA 6',
-    location: 'Nahara, offshore Sarawak',
-    top: '180px',
-    left: '690px',
-    contentAlignSide: 'right'
+    name: 'NAGA 6 & NAGA 2',
+    location: 'Prep @ Labuan',
+    top: '80px',
+    right: '250px',
+    contentAlignSide: 'left'
   },
   {
     id: 6,
     name: 'NAGA 3',
-    location: 'Offshore Vietnam',
-    top: '0px',
-    left: '20px',
+    location: 'PTTEP',
+    top: '160px',
+    right: '260px',
     contentAlignSide: 'right'
   }
 ]

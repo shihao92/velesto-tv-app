@@ -2,33 +2,33 @@ export const GAITS_LOCATION = [
   {
     id: 1,
     name: 'GAIT I',
-    location: 'Kemaman Base',
+    location: 'KSB Yard 1',
     top: '100px',
-    left: '60px',
+    left: '150px',
     contentAlignSide: 'left'
   },
   {
     id: 2,
     name: 'GAIT II',
-    location: 'Kemaman Base',
-    top: '100px',
-    left: '188px',
+    location: 'KSB Yard 1',
+    top: '60px',
+    left: '250px',
     contentAlignSide: 'right'
   },
   {
     id: 5,
     name: 'GAIT V',
-    location: 'Offshore Sarawak (Bokor)',
-    top: '115px',
-    left: '710px',
-    contentAlignSide: 'right'
+    location: 'Tembungo A',
+    top: '60px',
+    left: '700px',
+    contentAlignSide: 'left'
   },
   {
     id: 6,
     name: 'GAIT VI',
-    location: 'Offshore Terengganu (Guntong)',
-    top: '70px',
-    left: '310px',
+    location: 'KSB Yard 1',
+    top: '120px',
+    left: '250px',
     contentAlignSide: 'right'
   },
 ]
