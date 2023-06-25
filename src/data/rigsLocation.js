@@ -23,21 +23,21 @@ export const RIGS_LOCATIONS = [
     left: '270px',
     contentAlignSide: 'right'
   },
-  {
-    id: 4,
-    name: 'NAGA 2',
-    location: 'Roc Oil',
-    top: '180px',
-    right: '400px',
-    contentAlignSide: 'left'
-  },
+  // {
+  //   id: 4,
+  //   name: 'NAGA 2',
+  //   location: 'Roc Oil',
+  //   top: '180px',
+  //   right: '400px',
+  //   contentAlignSide: 'left'
+  // },
   {
     id: 5,
-    name: 'NAGA 6',
-    location: 'Prepping',
+    name: 'NAGA 6 & NAGA 2',
+    location: 'Prep @ Labuan',
     top: '80px',
-    right: '140px',
-    contentAlignSide: 'right'
+    right: '250px',
+    contentAlignSide: 'left'
   },
   {
     id: 6,
