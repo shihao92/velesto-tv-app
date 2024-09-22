@@ -4,7 +4,7 @@ export const RIGS_LOCATIONS = [
     name: 'NAGA 8',
     location: 'MTJDA',
     top: '40px',
-    left: '50px',
+    left: '90px',
     contentAlignSide: 'left'
   },
   {
