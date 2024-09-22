@@ -155,6 +155,11 @@ export const RIGS_MODEL = [
 				val: `51/2” S-135 (21.9 ppf)<br>3 1/2"S-135 (14 ppf)`
 			}
 		],
+		offlineSystem: [
+			'Make-up and rack back drill pipe offline',
+			'Perform offline centrifuging (partial capability)',
+			'Perform offline cementing (partial capability)'
+		],
 		wellControl: [
 			{
 				"key": "BOP",
@@ -162,7 +167,7 @@ export const RIGS_MODEL = [
 			},
 			{
 				"key": "BOP Annular",
-				"val": `183 /4" NOV WEDGE BOP<br>10,000 psi WP`
+				"val": `183 /4" NOV WEDGE SBOP<br>10,000 psi WP`
 			},
 			{
 				"key": "Diverter",
@@ -214,7 +219,7 @@ export const RIGS_MODEL = [
 			},
 			{
 				"key": "Emergency Generator",
-				"val": "KATO @1,450 ekW"
+				"val": "KATO @1,720 ekW"
 			}
 		],
 		mudSystem: [
@@ -317,7 +322,7 @@ export const RIGS_MODEL = [
 			},
 			{
 				"key": "Flag",
-				"val": "Singapore"
+				"val": "Malaysia"
 			},
 			{
 				"key": "Classification",
@@ -450,6 +455,11 @@ export const RIGS_MODEL = [
 				val: '5-1/2" S-135 FH DSTJ (21.9 ppf) 4" DSTJ ST-39 (14 ppf)'
 			}
 		],
+		offlineSystem: [
+			'Make up and break up drill pipe',
+			'Perform offline centrifuging',
+			'Perform offline cementing',
+		],
 		wellControl: [
 			{
 				"key": "BOP",
@@ -491,7 +501,7 @@ export const RIGS_MODEL = [
 			},
 			{
 				"key": "Fly Hoist Capacity",
-				"val": "Up to 10.0 T at 42.1m, Up to 9.4 T at 43.3m"
+				"val": "Up to 5 T in all radii"
 			},
 			{
 				"key": "Bridge Racker",
@@ -513,7 +523,7 @@ export const RIGS_MODEL = [
 			},
 			{
 				"key": "Emergency Generator",
-				"val": "KATO @1,450 ekW"
+				"val": "KATO @1,720 ekW"
 			}
 		],
 		mudSystem: [
@@ -799,8 +809,14 @@ export const RIGS_MODEL = [
 		tubulars: [
 			{
 				key: 'Drill Pipe',
-				val: '5 1/2” S135 (21.9 ppf)<br>4” S135 (16.38 ppf)'
+				val: '5 1/2” S135 (21.9 ppf)<br>4" S-135 (14 ppf)'
 			}
+		],
+		offlineSystem: [
+			'make-up and break-out drill pipe offline',
+			'perform offline Centrifuge',
+			'perform offline Cementing',
+			'Make-up and rack back casing offline (up to 9-5/8")'
 		],
 		wellControl: [
 			{
@@ -813,7 +829,7 @@ export const RIGS_MODEL = [
 			},
 			{
 				"key": "Diverter",
-				"val": 'Drill-Quip 49"'
+				"val": 'Vetco Gray KFDJ-500'
 			},
 			{
 				"key": "Choke & Kill Manifold",
@@ -826,6 +842,10 @@ export const RIGS_MODEL = [
 			{
 				"key": "Conductor Tensioner",
 				"val": "ICON T230A 230 MT"
+			},
+			{
+				"key": "BOP Top Tensioner Unit",
+				"val": "ICON P100A"
 			}
 		],
 		liftingEquipment: [
@@ -843,7 +863,7 @@ export const RIGS_MODEL = [
 			},
 			{
 				"key": "Fly Hoist Capacity",
-				"val": "Up to 10.0 T at 35.6m, Up to 9.8 T at 38.6m"
+				"val": "Up to 10.0 T at 32.3m"
 			}
 		],
 		powerPlant: [
@@ -1094,8 +1114,14 @@ export const RIGS_MODEL = [
 		tubulars: [
 			{
 				key: 'Drill Pipe',
-				val: `5 1/2" S-135 (21.9 ppf)<br>3 1/2" S-135 (15.5 ppf)`
+				val: `5 1/2" S-135 (21.9 ppf)<br>4" S-135 (14 ppf)`
 			}
+		],
+		offlineSystem: [
+			'make-up and break-out drill pipe offline',
+			'perform offline Centrifuge',
+			'perform offline Cementing',
+			'Multipurpose Cranes4" S-135 (14 ppf)Fly Hoist CapabityUp to 10 T at 38.4mMake-up and rack back casing (up to 13-3/8")underneath the rig floor'
 		],
 		wellControl: [
 			{
@@ -1137,16 +1163,8 @@ export const RIGS_MODEL = [
 				"val": "Up to 45.4 T at 12.2 m, Up to 11.0 T at 36.6 m"
 			},
 			{
-				key: 'Multipurpose Cranes',
-				val: '2 x Forum /15K-VP 15,000 lbs<br>(6,804 kg)'
-			},
-			{
-				"key": "Location",
-				"val": "Cantilever Starboard and Port side cellar deck"
-			},
-			{
 				key: 'Fly Hoist Capacity',
-				val: 'Up to 6.8T at 10 m'
+				val: 'Up to 10 T at 38.4m'
 			}
 		],
 		powerPlant: [
@@ -1308,6 +1326,14 @@ export const RIGS_MODEL = [
 				val: '437 ft'
 			},
 			{
+				key: 'Short Spec - Leg Length',
+				val: '503 ft'
+			},
+			{
+				key: 'Short Spec - Leg Length (under hull)',
+				val: '440 ft'
+			},
+			{
 				key: 'Leg Spacing',
 				val: 'Transverse: 150ft, Longitudinal : 131ft'
 			},
@@ -1379,7 +1405,7 @@ export const RIGS_MODEL = [
 			},
 			{
 				"key": "Pipe Handling",
-				"val": "PRS-8i Foxhole"
+				"val": "RPS-8i Foxhole"
 			},
 			{
 				key: 'Catwalk Shuttle',
@@ -1387,7 +1413,7 @@ export const RIGS_MODEL = [
 			},
 			{
 				"key": "Iron Roughneck",
-				"val": "NOV ST 120"
+				"val": "Primary: NOV ST 120"
 			},
 			{
 				"key": "Rotary Table",
@@ -1408,6 +1434,12 @@ export const RIGS_MODEL = [
 				val: `5 7/8" S-135 FH DSTJ (21.9 ppf)<br>4" DSTJ ST-39 (14 ppf)`
 			}
 		],
+		offlineSystem: [
+			'Make-up and break-out drill pipe offline',
+			'Perform offline cementing',
+			'Perform offline centrifuging',
+			'Chela Cranes underneath the rig floor'
+		],
 		wellControl: [
 			{
 				"key": "BOP",
@@ -1415,7 +1447,7 @@ export const RIGS_MODEL = [
 			},
 			{
 				"key": "BOP Annular",
-				"val": "18 3 /4\" NOV SBOP BIG BOY<br>10,000 psi WP"
+				"val": "18 3 /4\" NOV SBOP<br>10,000 psi WP"
 			},
 			{
 				"key": "Diverter",
@@ -1432,6 +1464,10 @@ export const RIGS_MODEL = [
 			{
 				"key": "Conductor Tensioner",
 				"val": "PH Hydraulics 225 MT, Max 30\" Casing"
+			},
+			{
+				"key": "BOP Tensioner System",
+				"val": "PH Hydraulic 100 T"
 			}
 		],
 		liftingEquipment: [
@@ -1449,7 +1485,7 @@ export const RIGS_MODEL = [
 			},
 			{
 				"key": "Fly Hoist Capacity",
-				"val": "Up to 10.0 T at 42.1m, Up to 9.4 T at 43.4m"
+				"val": "Up to 5 T at all Radii"
 			},
 			{
 				key: 'Knuckle Boom Crane',
@@ -1763,6 +1799,11 @@ export const RIGS_MODEL = [
 				"val": "NOV Amphion System"
 			}
 		],
+		offlineSystem: [
+			'Make-up and break-up drillpipe offline',
+			'Perform offline centrifuging',
+			'Make up and rack back casing (up to 9-5/8")'
+		],
 		tubulars: [
 			{
 				key: 'Drill Pipe',
@@ -1776,7 +1817,7 @@ export const RIGS_MODEL = [
 			},
 			{
 				"key": "BOP Annular",
-				"val": "18 3 /4\" NOV SBOP BIG BOY 10,000 psi WP"
+				"val": "18 3 /4\" NOV SBOP 10,000 psi WP"
 			},
 			{
 				"key": "Diverter",
@@ -1810,7 +1851,7 @@ export const RIGS_MODEL = [
 			},
 			{
 				"key": "Fly Hoist Capacity",
-				"val": "Up to 10.0 T at 40.1 m, Up to 9.0 T at 43.1 m"
+				"val": "Up to 10.0 T at 38.4 m"
 			}
 		],
 		powerPlant: [
